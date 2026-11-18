@@ -10,14 +10,14 @@
 <header class="bar">
   <div class="word">JoyIME</div>
   <nav class="tabs" id="tabs">
-    <button data-page="controller" class="on">控制器</button>
-    <button data-page="input">输入</button>
-    <button data-page="practice">练习</button>
-    <button data-page="about">关于</button>
+    <button data-page="controller" class="on" data-t="tab.controller">控制器</button>
+    <button data-page="input" data-t="tab.input">输入</button>
+    <button data-page="practice" data-t="tab.practice">练习</button>
+    <button data-page="about" data-t="tab.about">关于</button>
   </nav>
   <div class="bar-right">
     <span class="device" id="device"><i class="status"></i><span id="dev-name">未连接</span></span>
-    <label class="switch-row" title="暂停 / 恢复摇杆输入">
+    <label class="switch-row" title="暂停 / 恢复摇杆输入" data-t-title="power.title">
       <span id="power-label">已开启</span>
       <input type="checkbox" id="power" checked>
       <i class="switch"></i>
@@ -33,9 +33,9 @@
       <div class="canvas-note" id="canvas-note"></div>
     </div>
     <div class="toolbar">
-      <span class="tb-label">布局</span>
+      <span class="tb-label" data-t="tb.layout">布局</span>
       <div class="seg" id="presets"></div>
-      <button class="btn" id="btn-detect">检测按键…</button>
+      <button class="btn" id="btn-detect" data-t="tb.detect">检测按键…</button>
       <span class="tb-status" id="dir-status">方向 —</span>
     </div>
   </section>
@@ -45,59 +45,68 @@
 <!-- ================= 输入 ================= -->
 <main class="page" id="page-input">
   <div class="settings">
-    <h2>工作方式</h2>
+    <h2 data-t="h.ui">界面</h2>
     <div class="row">
-      <div><b>字怎么打进程序</b><p>系统输入法：在输入法列表（Win + 空格）里选了 JoyIME 才工作，打字时读音显示在文字里，和普通输入法一样。<br>模拟键入：不用安装输入法，摇杆在任何程序里直接打字。</p></div>
-      <select id="set-output">
-        <option value="auto">自动（装了系统输入法就用它）</option>
-        <option value="ime">系统输入法</option>
-        <option value="inject">模拟键入</option>
+      <div><b>语言 · Language</b><p data-t="lang.desc">设置窗口、候选窗和托盘菜单用的语言。</p></div>
+      <select id="set-lang">
+        <option value="auto" data-t="lang.auto">跟随系统</option>
+        <option value="zh">中文</option>
+        <option value="en">English</option>
       </select>
     </div>
-    <h2>方向提示</h2>
+    <h2 data-t="h.output">工作方式</h2>
     <div class="row">
-      <div><b>进入输入框时显示方向提示</b><p>点进可以打字的地方，就在光标旁边显示八个方向各对应哪些字母。</p></div>
+      <div><b data-t="output.name">字怎么打进程序</b><p data-t="output.desc">系统输入法：在输入法列表（Win + 空格）里选了 JoyIME 才工作，打字时读音显示在文字里，和普通输入法一样。<br>模拟键入：不用安装输入法，摇杆在任何程序里直接打字。</p></div>
+      <select id="set-output">
+        <option value="auto" data-t="output.auto">自动（装了系统输入法就用它）</option>
+        <option value="ime" data-t="output.ime">系统输入法</option>
+        <option value="inject" data-t="output.inject">模拟键入</option>
+      </select>
+    </div>
+    <h2 data-t="h.hint">方向提示</h2>
+    <div class="row">
+      <div><b data-t="hint.name">进入输入框时显示方向提示</b><p data-t="hint.desc">点进可以打字的地方，就在光标旁边显示八个方向各对应哪些字母。</p></div>
       <label class="switch-row"><input type="checkbox" id="set-hint"><i class="switch"></i></label>
     </div>
     <div class="row">
-      <div><b>没有操作多久后收起</b><p>推摇杆或按键会重新弹出；打字时一直显示。</p></div>
+      <div><b data-t="hintsecs.name">没有操作多久后收起</b><p data-t="hintsecs.desc">推摇杆或按键会重新弹出；打字时一直显示。</p></div>
       <select id="set-hint-secs">
-        <option value="2">2 秒</option>
-        <option value="4">4 秒</option>
-        <option value="6">6 秒</option>
-        <option value="10">10 秒</option>
-        <option value="0">一直显示</option>
+        <option value="2" data-t="secs.2">2 秒</option>
+        <option value="4" data-t="secs.4">4 秒</option>
+        <option value="6" data-t="secs.6">6 秒</option>
+        <option value="10" data-t="secs.10">10 秒</option>
+        <option value="0" data-t="secs.0">一直显示</option>
       </select>
     </div>
-    <h2>候选窗</h2>
+    <h2 data-t="h.cands">候选窗</h2>
     <div class="row">
-      <div><b>候选窗位置</b><p>跟随光标时，拿不到光标位置的程序会退回到屏幕底部。</p></div>
+      <div><b data-t="follow.name">候选窗位置</b><p data-t="follow.desc">跟随光标时，拿不到光标位置的程序会退回到屏幕底部。</p></div>
       <select id="set-follow">
-        <option value="caret">跟随文字光标</option>
-        <option value="bottom">固定在屏幕底部</option>
+        <option value="caret" data-t="follow.caret">跟随文字光标</option>
+        <option value="bottom" data-t="follow.bottom">固定在屏幕底部</option>
       </select>
     </div>
-    <h2>输入方式</h2>
+    <h2 data-t="h.layers">输入方式</h2>
     <div id="layer-rows"></div>
     <div class="row">
-      <div><b>切换顺序</b><p>没在打字时按「切换」，在打开的输入方式之间依次换。</p></div>
+      <div><b data-t="order.name">切换顺序</b><p data-t="order.desc">没在打字时按「切换」，在打开的输入方式之间依次换。</p></div>
       <span class="mono" id="layer-order"></span>
     </div>
-    <h2>常用词</h2>
+    <h2 data-t="h.learn">常用词</h2>
     <div class="row">
-      <div><b>记住常用的字词</b><p>选过的字词下次排在前面；几段拼成的词、整句也会记住，打到一半就能联想出来。只存在这台电脑上。</p></div>
+      <div><b data-t="learn.name">记住常用的字词</b><p data-t="learn.desc">选过的字词下次排在前面；几段拼成的词、整句也会记住，打到一半就能联想出来。只存在这台电脑上。</p></div>
       <label class="switch-row"><input type="checkbox" id="set-learn"><i class="switch"></i></label>
     </div>
     <div class="row">
-      <div><b>已记住的字词</b><p id="userdict-count">—</p></div>
-      <button class="btn" id="btn-clear-userdict">清除</button>
+      <div><b data-t="userdict.name">已记住的字词</b><p id="userdict-count">—</p></div>
+      <button class="btn" id="btn-clear-userdict" data-t="btn.clear">清除</button>
     </div>
-    <h2>标点</h2>
+    <h2 data-t="h.punct">标点</h2>
     <div class="row">
-      <div><b>中文输入时的标点</b><p>中文九宫格和全拼里打出的逗号、句号、问号、感叹号。英文和数字永远是半角。</p></div>
+      <div><b data-t="punct.name">中文输入时的标点</b><p data-t="punct.desc">中文九宫格和全拼里打出的逗号、句号、问号、感叹号。英文和数字永远是半角。</p></div>
       <select id="set-punct">
-        <option value="full">全角 ，。？！</option>
-        <option value="half">半角 , . ? !</option>
+        <option value="full" data-t="punct.full">全角 ，。？！</option>
+        <option value="half" data-t="punct.half">半角 , . ? !</option>
       </select>
     </div>
   </div>
@@ -108,10 +117,10 @@
   <div class="practice">
     <div class="pgrid" id="pgrid"></div>
     <div class="pside">
-      <div class="ptext-head"><span>练习区</span><button class="link" id="pclear">清空</button></div>
+      <div class="ptext-head"><span data-t="practice.area">练习区</span><button class="link" id="pclear" data-t="btn.clear">清空</button></div>
       <div class="ptext" id="ptext"></div>
       <div class="pmeta" id="pmeta"></div>
-      <p class="hint">这个窗口在前台时，摇杆打的字只出现在这里，不会打进别的程序。</p>
+      <p class="hint" data-t="practice.hint">这个窗口在前台时，摇杆打的字只出现在这里，不会打进别的程序。</p>
     </div>
   </div>
 </main>
@@ -119,21 +128,22 @@
 <!-- ================= 关于 ================= -->
 <main class="page" id="page-about">
   <div class="about">
-    <p><b>JoyIME</b> 0.1.0 — 用街机摇杆和游戏手柄打字。</p>
-    <h2>操作</h2>
+    <p data-t="about.intro"><b>JoyIME</b> 0.1.0 — 用街机摇杆和游戏手柄打字。</p>
+    <h2 data-t="about.controls">操作</h2>
     <dl>
-      <dt>九 · 中文九宫格</dt><dd>推一下方向再回中位 = 按一次九宫格键，上排按键选候选。没在打字时上排四键直接打 ，。？！</dd>
-      <dt>英 · 英文九宫格</dt><dd>同样只推方向，自动猜单词；选词后自动补空格，接着打标点会去掉这个空格。</dd>
-      <dt>123 · 数字</dt><dd>推一下 = 那个方向的数字，按手机键盘排：↖1 ↑2 ↗3 ←4 →6 ↙7 ↓8 ↘9；摇杆在中位时，上排四键是 5 0 . ,。推着方向再按键是符号（+ - = @ # …）。</dd>
-      <dt>拼 / abc / ABC</dt><dd>推方向选一组，按第几个键就是第几个字。</dd>
-      <dt>切换 · 回车</dt><dd>没在打字时：换层、回车。打字时：下一页、上一页，按住连翻。</dd>
-      <dt>简拼</dt><dd>只打首字母也行：nh → 你好，zgr → 中国人。</dd>
+      <dt data-t="about.cn9">九 · 中文九宫格</dt><dd data-t="about.cn9.d">推一下方向再回中位 = 按一次九宫格键，上排按键选候选。没在打字时上排四键直接打 ，。？！</dd>
+      <dt data-t="about.en9">英 · 英文九宫格</dt><dd data-t="about.en9.d">同样只推方向，自动猜单词；选词后自动补空格，接着打标点会去掉这个空格。</dd>
+      <dt data-t="about.num">123 · 数字</dt><dd data-t="about.num.d">推一下 = 那个方向的数字，按手机键盘排：↖1 ↑2 ↗3 ←4 →6 ↙7 ↓8 ↘9；摇杆在中位时，上排四键是 5 0 . ,。推着方向再按键是符号（+ - = @ # …）。</dd>
+      <dt data-t="about.letters">拼 / abc / ABC</dt><dd data-t="about.letters.d">推方向选一组，按第几个键就是第几个字。</dd>
+      <dt data-t="about.pinyin">选拼音</dt><dd data-t="about.pinyin.d">中文九宫格打字时按住空格，上排键改成选拼音而不是选候选，比如 96 想要 yo 而不是 wo。</dd>
+      <dt data-t="about.switch">切换 · 回车</dt><dd data-t="about.switch.d">没在打字时：换层、回车。打字时：下一页、上一页，按住连翻。</dd>
+      <dt data-t="about.initials">简拼</dt><dd data-t="about.initials.d">只打首字母也行：nh → 你好，zgr → 中国人。</dd>
     </dl>
-    <h2>第三方数据</h2>
+    <h2 data-t="about.third">第三方数据</h2>
     <dl>
-      <dt>中文词库</dt><dd>Google 拼音输入法词库（AOSP PinyinIME），Apache License 2.0</dd>
-      <dt>英文词频</dt><dd>FrequencyWords（Hermit Dave，基于 OpenSubtitles），MIT License</dd>
-      <dt>手柄识别</dt><dd>gilrs 及其内置的 SDL 手柄映射库</dd>
+      <dt data-t="about.dict">中文词库</dt><dd data-t="about.dict.d">Google 拼音输入法词库（AOSP PinyinIME），Apache License 2.0</dd>
+      <dt data-t="about.freq">英文词频</dt><dd data-t="about.freq.d">FrequencyWords（Hermit Dave，基于 OpenSubtitles），MIT License</dd>
+      <dt data-t="about.pads">手柄识别</dt><dd data-t="about.pads.d">gilrs 及其内置的 SDL 手柄映射库</dd>
     </dl>
   </div>
 </main>
@@ -141,19 +151,20 @@
 <!-- 检测按键 -->
 <div class="modal" id="wizard" hidden>
   <div class="dialog">
-    <div class="dlg-head"><b>检测按键</b><span id="wz-step"></span></div>
+    <div class="dlg-head"><b data-t="wz.title">检测按键</b><span id="wz-step"></span></div>
     <p class="dlg-ask" id="wz-ask"></p>
-    <p class="dlg-sub" id="wz-sub">按摇杆上对应位置的按键；没有这个键就点「跳过」。</p>
+    <p class="dlg-sub" id="wz-sub" data-t="wz.sub">按摇杆上对应位置的按键；没有这个键就点「跳过」。</p>
     <svg id="wz-stick" viewBox="0 0 760 400"></svg>
     <div class="dlg-presets" id="wz-presets" hidden></div>
     <div class="dlg-foot">
-      <button class="btn" id="wz-cancel">取消</button>
-      <button class="btn primary" id="wz-skip">跳过</button>
+      <button class="btn" id="wz-cancel" data-t="wz.cancel">取消</button>
+      <button class="btn primary" id="wz-skip" data-t="wz.skip">跳过</button>
     </div>
   </div>
 </div>
 
 <script src="common.js"></script>
+<script src="i18n.js"></script>
 <script src="settings.js"></script>
 </body>
 </html>

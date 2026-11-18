@@ -12,7 +12,7 @@ use the buttons to pick candidates. Chinese T9 (with a pinyin bar), English T9 p
 [![build](https://github.com/Fourdotszc/JoyIME/actions/workflows/build.yml/badge.svg)](https://github.com/Fourdotszc/JoyIME/actions/workflows/build.yml)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-<img src="docs/images/overlay.png" alt="JoyIME candidate window: direction hints on the left, pinyin bar and candidates on the right" width="720">
+<img src="docs/images/overlay-en.png" alt="JoyIME candidate window: direction hints on the left, pinyin bar and candidates on the right" width="720">
 
 </div>
 
@@ -22,7 +22,7 @@ On Windows, JoyIME is a real system input method. Pick **JoyIME 摇杆输入法*
 (<kbd>Win</kbd> + <kbd>Space</kbd>), click into any text box and start typing. The candidate window follows the text cursor,
 just like a regular IME. It comes with a companion app for mapping buttons, choosing input modes and practising.
 
-> The user interface is currently in Chinese. This README explains every screen.
+> The interface comes in English and Chinese. It follows your Windows display language; you can also pick one under **Input → Language**.
 
 ## Contents
 
@@ -78,16 +78,16 @@ The hint window shows this grid, highlighting the direction you're pushing.
 
 ### Input modes
 
-Press **Cycle** (when you're not in the middle of a word) to switch between the modes you've enabled.
-The default order is 九 → 英 → 123 → abc → ABC; you can turn modes on and off and reorder them in the app.
+Press **Switch** (when you're not in the middle of a word) to switch between the modes you've enabled.
+The default order is CN → EN → 123 → abc → ABC; you can turn modes on and off and reorder them in the app.
 
 | Mode | Label | How it works |
 |---|---|---|
-| Chinese T9 | 九 | Flick keys, pick a word with the top buttons. Space picks the first candidate. |
-| English T9 | 英 | Flick keys, JoyIME predicts the word and adds a space after it. Punctuation attaches to the word (`hello ,` → `hello, `). |
+| Chinese T9 | CN (九) | Flick keys, pick a word with the top buttons. Space picks the first candidate. |
+| English T9 | EN (英) | Flick keys, JoyIME predicts the word and adds a space after it. Punctuation attaches to the word (`hello ,` → `hello, `). |
 | Numbers & symbols | 123 | Flick = digit (↖ 1, ↑ 2, ↗ 3, ← 4, → 6, ↙ 7, ↓ 8, ↘ 9). At centre the top buttons type **5 0 . ,**. Direction + button types symbols such as `+ - * / ( ) @ #`. |
 | Lowercase / uppercase | abc / ABC | Hold a direction and press top button 1–4 to type the 1st–4th letter of that group (↑ + button 1 = `a`). |
-| Full pinyin | 拼 | Spell pinyin letter by letter (same as abc), get Chinese candidates. Off by default. |
+| Full pinyin | PY (拼) | Spell pinyin letter by letter (same as abc), get Chinese candidates. Off by default. |
 
 When nothing is being typed in Chinese T9, the four top buttons type **，。？！** (half-width `, . ? !` if you prefer).
 
@@ -98,8 +98,8 @@ mean. JoyIME does the same:
 
 <table>
 <tr>
-<td width="50%"><img src="docs/images/overlay-pyfocus.png" alt="Holding Space: the pinyin bar lights up and the top buttons pick xian, xiao, zhao, zhan"></td>
-<td width="50%"><img src="docs/images/overlay-pinned.png" alt="After picking xian, only words read xian remain: 先 线 现在 县"></td>
+<td width="50%"><img src="docs/images/overlay-pyfocus-en.png" alt="Holding Space: the pinyin bar lights up and the top buttons pick xian, xiao, zhao, zhan"></td>
+<td width="50%"><img src="docs/images/overlay-pinned-en.png" alt="After picking xian, only words read xian remain: 先 线 现在 县"></td>
 </tr>
 <tr>
 <td><b>Hold Space</b> – the pinyin bar lights up; the numbers match the top buttons.</td>
@@ -108,17 +108,17 @@ mean. JoyIME does the same:
 </table>
 
 - **Hold Space + top button** – fix that syllable. Keep holding to fix the next one (64426 → *ni* → *hao* → 你好).
-- **Hold Space + Cycle / Enter** – page through the pinyin options.
+- **Hold Space + Switch / Enter** – page through the pinyin options.
 - **Hold Space + Backspace** – undo the last fixed syllable.
 - A quick **tap** of Space still picks the first candidate, as usual.
-- Prefer a toggle? Assign **选拼音 (Pinyin select)** to a spare button (Start, on the default layouts): press it once and the top buttons pick pinyin until you press it again.
+- Prefer a toggle? Assign **选拼音 (Pick pinyin)** to a spare button (Start, on the default layouts): press it once and the top buttons pick pinyin until you press it again.
 
 ### Paging and editing
 
-- **Cycle** = next page, **Enter** = previous page while typing; hold to flip quickly. Pages wrap around.
+- **Switch** = next page, **Enter** = previous page while typing; hold to flip quickly. Pages wrap around.
 - **Backspace** deletes the last key; hold to repeat. With nothing being typed it's a normal Backspace.
 - **Clear** (Select) throws away what you're typing.
-- **Toggle** (Home) pauses JoyIME – handy when you switch back to playing a game.
+- **On/Off** (Home) pauses JoyIME – handy when you switch back to playing a game.
 
 ## Default button layouts
 
@@ -129,9 +129,9 @@ Top row = the four buttons above, bottom row = the four below (as on a Vewlix-st
 | | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|
 | Top row | Candidate 1 | Candidate 2 | Candidate 3 | Candidate 4 |
-| Bottom row | Space | Backspace | Cycle / next page | Enter / previous page |
+| Bottom row | Space | Backspace | Switch / next page | Enter / previous page |
 
-Select = Clear · Start = Pinyin select · Home = Toggle
+Select = Clear · Start = Pick pinyin · Home = On/Off
 
 **6-button arcade stick**
 
@@ -140,12 +140,12 @@ Select = Clear · Start = Pinyin select · Home = Toggle
 | Top row | Candidate 1 | Candidate 2 | Candidate 3 |
 | Bottom row | Candidate 4 | Space | Backspace |
 
-Start = Cycle / next page · Select = Enter / previous page · Home = Toggle
+Start = Switch / next page · Select = Enter / previous page · Home = On/Off
 
 **Gamepad (Xbox layout)**
 
-X / Y / B / A = Candidate 1–4 · RB = Space · LB = Backspace · RT = Cycle / next page · LT = Enter / previous page ·
-View = Clear · Menu = Pinyin select · Guide = Toggle · D-pad or left stick = directions
+X / Y / B / A = Candidate 1–4 · RB = Space · LB = Backspace · RT = Switch / next page · LT = Enter / previous page ·
+View = Clear · Menu = Pick pinyin · Guide = On/Off · D-pad or left stick = directions
 
 Every button can be changed in the app.
 
@@ -154,32 +154,33 @@ Every button can be changed in the app.
 Open it from the Start menu or by clicking the tray icon. Closing the window only hides it; JoyIME keeps running in the tray
 (right-click the tray icon to pause, resume or quit).
 
-### 控制器 · Controller
+### Controller
 
-<img src="docs/images/settings-controller.png" alt="Controller tab: a drawing of the arcade stick with each button labelled with its function, and the list of assignments on the right" width="860">
+<img src="docs/images/settings-controller-en.png" alt="Controller tab: a drawing of the arcade stick with each button labelled with its function, and the list of assignments on the right" width="860">
 
 - A live drawing of your stick: the directions and every button light up as you press them, so you can see what JoyIME receives.
 - Each button is labelled with its function. **Click a button** (in the drawing or the list on the right) to assign another function.
-- **布局 · Layout** – switch between the 8-button, 6-button and gamepad presets in one click.
-- **检测按键… · Detect buttons** – a short wizard asks you to press each position in turn (top 1, top 2, …). Use it if a stick reports its buttons in unusual places or isn't recognised at all; the positions are remembered per controller model.
+- **Layout** – switch between the 8-button, 6-button and gamepad presets in one click.
+- **Detect buttons…** – a short wizard asks you to press each position in turn (top 1, top 2, …). Use it if a stick reports its buttons in unusual places or isn't recognised at all; the positions are remembered per controller model.
 - The status line shows whether the model was recognised, how many buttons it has and how many candidates fit on a page (one per candidate button).
 
-### 输入 · Input
+### Input
 
-<img src="docs/images/settings-input.png" alt="Input tab: output method, direction hint, candidate window position, input modes" width="860">
+<img src="docs/images/settings-input-en.png" alt="Input tab: language, output method, direction hints, candidate window position" width="860">
 
 | Setting | What it does |
 |---|---|
-| 字怎么打进程序 · Output | **Auto** (use the system IME when it's installed), **System IME** (only when JoyIME is selected with Win + Space; the reading is shown inline like any IME), or **Simulated typing** (no IME needed, types straight into any program). |
-| 方向提示 · Direction hint | Show the 3 × 3 hint when you click into a text box, and how long until it hides (2–10 s, or always). |
-| 候选窗位置 · Candidate window | Follow the text cursor, or stay at the bottom of the screen. |
-| 输入方式 · Input modes | Turn each mode on or off, and set the order **Cycle** steps through. |
-| 记住常用的字词 · Learn words | Remember picked words and phrases; shows how many are stored, with a button to clear them. |
-| 标点 · Punctuation | Full-width （，。？！） or half-width (, . ? !) punctuation in Chinese modes. |
+| Language | **Same as Windows**, **中文** or **English**. Applies to this window, the candidate window and the tray menu. |
+| Output | **Auto** (use the system IME when it's installed), **System IME** (only when JoyIME is selected with Win + Space; the reading is shown inline like any IME), or **Simulated typing** (no IME needed, types straight into any program). |
+| Direction hints | Show the 3 × 3 hint when you click into a text box, and how long until it hides (2–10 s, or always). |
+| Candidate window | Follow the text cursor, or stay at the bottom of the screen. |
+| Input modes | Turn each mode on or off, and set the order **Switch** steps through. |
+| Learning | Remember picked words and phrases; shows how many are stored, with a button to clear them. |
+| Punctuation | Full-width （，。？！） or half-width (, . ? !) punctuation in Chinese modes. |
 
-### 练习 · Practice
+### Practice
 
-<img src="docs/images/settings-practice.png" alt="Practice tab: a large direction grid and a practice text box with the candidate popup under the cursor" width="860">
+<img src="docs/images/settings-practice-en.png" alt="Practice tab: a large direction grid and a practice text box with the candidate popup under the cursor" width="860">
 
 A big direction grid and a practice box. While this window is in front, everything you type goes here only – a safe place to
 learn the directions and try new button layouts.
@@ -226,7 +227,7 @@ Every push builds the installer on GitHub Actions; pushing a `v*` tag publishes 
 ## Roadmap
 
 - [x] Windows system IME and installer
-- [ ] English user interface
+- [x] English user interface
 - [ ] macOS (InputMethodKit)
 - [ ] Linux (fcitx5 / IBus)
 

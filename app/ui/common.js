@@ -1,15 +1,6 @@
 'use strict';
 
-// 两个窗口共用：输入层的全名、功能的颜色分类、Tauri 接口（在普通浏览器里预览时没有 Tauri，用演示数据）
-
-const LAYER_NAMES = {
-  '九': '中文九宫格',
-  '拼': '中文全拼',
-  '英': '英文联想',
-  'abc': '小写字母',
-  'ABC': '大写字母',
-  '123': '数字符号',
-};
+// 两个窗口共用：九宫格方向、Tauri 接口（在普通浏览器里预览时没有 Tauri，用演示数据）。界面文字的翻译在 i18n.js
 
 // 九宫格九个格子对应的方向编号（左上到右下，中间是中位），和后台的 Dir 顺序一致：0↑ 1↗ 2→ 3↘ 4↓ 5↙ 6← 7↖
 const GRID_DIRS = [7, 0, 1, 6, null, 2, 5, 4, 3];
@@ -41,9 +32,20 @@ const DEMO = {
   },
   invoke(cmd, args) {
     if (cmd === 'get_meta') return DEMO_META;
-    if (cmd === 'get_settings') return DEMO_SETTINGS;
+    if (cmd === 'get_settings') return { ...DEMO_SETTINGS };
     if (cmd === 'userdict_len') return 128;
-    if (cmd === 'set_settings') Object.assign(DEMO_SETTINGS, args.settings);
+    // 演示里的语言：地址里的 ?lang=en / zh，否则跟浏览器
+    if (cmd === 'get_lang') return DEMO_LANG(DEMO_SETTINGS.lang);
+    if (cmd === 'set_settings') {
+      const before = DEMO_LANG(DEMO_SETTINGS.lang);
+      Object.assign(DEMO_SETTINGS, args.settings);
+      const after = DEMO_LANG(DEMO_SETTINGS.lang);
+      if (after !== before) {
+        const u = new URL(location.href);
+        u.searchParams.set('lang', DEMO_SETTINGS.lang);
+        location.href = u.href;
+      }
+    }
     if (cmd === 'set_binding') {
       for (const [k, v] of Object.entries(DEMO_PAD.profile.bindings)) if (v === args.action) delete DEMO_PAD.profile.bindings[k];
       if (args.action) DEMO_PAD.profile.bindings[args.code] = args.action;
@@ -57,7 +59,11 @@ const DEMO = {
   },
 };
 
-const DEMO_SETTINGS = { hint: true, hint_secs: 4, follow_caret: true, layers: ['cn9', 'en9', 'num', 'lower', 'upper'], cn_fullwidth: true, output: 'auto', learn: true };
+const DEMO_SETTINGS = {
+  hint: true, hint_secs: 4, follow_caret: true, layers: ['cn9', 'en9', 'num', 'lower', 'upper'], cn_fullwidth: true, output: 'auto', learn: true,
+  lang: new URLSearchParams(location.search).get('lang') || 'auto',
+};
+const DEMO_LANG = l => (l === 'zh' || l === 'en' ? l : navigator.language.startsWith('zh') ? 'zh' : 'en');
 
 const DEMO_META = {
   actions: [
@@ -134,7 +140,7 @@ function pinyinBar(v) {
   });
   if (opts.length) bar.append(list);
   if (v.py_focus && v.py_pages > 1) bar.append(el('small', '', `${v.py_page + 1}/${v.py_pages}`));
-  else if (!v.py_focus && opts.length) bar.append(el('small', '', '按住空格选'));
+  else if (!v.py_focus && opts.length) bar.append(el('small', '', t('按住空格选')));
   return bar;
 }
 

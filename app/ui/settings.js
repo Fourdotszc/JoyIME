@@ -3,12 +3,6 @@
 const $ = id => document.getElementById(id);
 const SVGNS = 'http://www.w3.org/2000/svg';
 
-// 按键上写的短名字
-const SHORT = {
-  slot0: '候选 1', slot1: '候选 2', slot2: '候选 3', slot3: '候选 4',
-  space: '空格', backspace: '退格', enter: '回车', cycle_layer: '切换',
-  next_page: '下一页', prev_page: '上一页', escape: '清空', shift: '大写', toggle: '开关', pinyin: '选拼音',
-};
 // 方向编号 → 单位向量（右、下为正）
 const DIR_VEC = [[0, -1], [0.71, -0.71], [1, 0], [0.71, 0.71], [0, 1], [-0.71, 0.71], [-1, 0], [-0.71, -0.71]];
 
@@ -40,7 +34,7 @@ function positionOf(b) {
 const buttonAt = pos => pad.buttons.find(b => positionOf(b) === pos) || null;
 const keyLabel = b => {
   const pos = positionOf(b);
-  return pos ? posLabel(pos) : `按键 #${b.code}`;
+  return pos ? posLabel(pos) : t('按键 #{0}', b.code);
 };
 
 function svg(tag, attrs, text) {
@@ -96,7 +90,7 @@ function drawStick(root, opts = {}) {
       if (b.code === selCode) k.classList.add('sel');
     }
     if (pos === opts.target) k.classList.add('target');
-    const label = b ? SHORT[b.action] || '未分配' : '';
+    const label = b ? shortName(b.action) || t('未分配') : '';
     if (g.c) {
       const [cx, cy] = g.c;
       const r = g.small ? 12 : 32;
@@ -143,7 +137,7 @@ function renderInspector() {
   box.replaceChildren();
   if (!pad.connected) {
     const h = el('div', 'ins-head');
-    h.append(el('b', '', '没有摇杆'), el('p', '', '插上摇杆后按一下任意键。'));
+    h.append(el('b', '', t('没有摇杆')), el('p', '', t('插上摇杆后按一下任意键。')));
     box.append(h);
     return;
   }
@@ -151,13 +145,13 @@ function renderInspector() {
   if (!b) return renderOverview(box);
 
   const head = el('div', 'ins-head');
-  const back = el('button', 'link', '← 全部按键');
+  const back = el('button', 'link', t('← 全部按键'));
   back.onclick = () => select(null);
   head.append(back, el('b', '', keyLabel(b)), el('span', '', `#${b.code}${b.std_name ? ' · ' + b.std_name : ''}`));
   box.append(head);
 
   const owner = id => pad.buttons.find(x => x.action === id && x.code !== b.code);
-  const options = [...meta.actions, ['', '不分配', '这个键什么都不做']];
+  const options = [...meta.actions, ['', t('不分配'), t('这个键什么都不做')]];
   for (const [id, name, desc] of options) {
     const row = el('label', 'opt');
     const r = el('input');
@@ -166,19 +160,19 @@ function renderInspector() {
     r.checked = (b.action || '') === id;
     r.onchange = () => invoke('set_binding', { code: b.code, action: id || null });
     const o = id && owner(id);
-    const t = el('b', '', name);
+    const title = el('b', '', name);
     if (o) {
       row.classList.add('taken');
-      t.dataset.taken = `现在在${keyLabel(o)}`;
+      title.dataset.taken = t('现在在{0}', keyLabel(o));
     }
-    row.append(r, t, el('small', '', desc));
+    row.append(r, title, el('small', '', desc));
     box.append(row);
   }
 }
 
 function renderOverview(box) {
   const head = el('div', 'ins-head');
-  head.append(el('b', '', '按键分配'), el('p', '', '点图上的按键或下面一行，给它换功能。'));
+  head.append(el('b', '', t('按键分配')), el('p', '', t('点图上的按键或下面一行，给它换功能。')));
   box.append(head);
   const list = el('div', 'overview');
   const placed = new Set();
@@ -190,7 +184,7 @@ function renderOverview(box) {
   }
   const others = pad.buttons.filter(b => !placed.has(b.code));
   if (others.length) {
-    list.append(el('div', 'ov-sec', '其他按键'));
+    list.append(el('div', 'ov-sec', t('其他按键')));
     for (const b of others) list.append(overviewRow(b, `#${b.code}${b.std_name ? ' ' + b.std_name : ''}`));
   }
   box.append(list);
@@ -199,7 +193,7 @@ function renderOverview(box) {
 function overviewRow(b, label) {
   const r = el('div', 'ov-row');
   r.dataset.code = b.code;
-  r.append(el('span', '', label), el('span', b.action ? '' : 'unset', b.action ? actionName(b.action) : '未分配'));
+  r.append(el('span', '', label), el('span', b.action ? '' : 'unset', b.action ? actionName(b.action) : t('未分配')));
   r.onclick = () => select(b.code);
   return r;
 }
@@ -213,23 +207,25 @@ function select(code) {
 // ---------- 顶栏、工具栏 ----------
 function renderChrome() {
   $('device').classList.toggle('on', pad.connected);
-  $('dev-name').textContent = pad.connected ? pad.name : '未连接摇杆';
+  $('dev-name').textContent = pad.connected ? t(pad.name) : t('未连接摇杆');
   $('btn-detect').disabled = !pad.connected;
 
   const seg = $('presets');
   seg.replaceChildren();
   for (const [id, name] of meta.presets) {
-    const b = el('button', pad.profile.preset === id ? 'on' : '', name.replace('街机摇杆 · ', '街机 '));
+    const b = el('button', pad.profile.preset === id ? 'on' : '', name.replace('街机摇杆 · ', '街机 ').replace('Arcade stick · ', 'Arcade '));
     b.disabled = !pad.connected;
     b.onclick = () => invoke('apply_preset', { preset: id });
     seg.append(b);
   }
-  if (pad.profile.preset === 'custom') seg.append(el('span', 'custom', '已自定义'));
+  if (pad.profile.preset === 'custom') seg.append(el('span', 'custom', t('已自定义')));
 
   const n = pad.buttons.length;
   const learned = Object.keys(pad.profile.names).length;
-  const how = { sdl: '已识别型号', driver: '系统驱动映射', none: '未识别型号，建议先「检测按键」' }[pad.mapping];
-  $('canvas-note').textContent = pad.connected ? `${how} · ${n} 个按键${learned ? ` · 检测过 ${learned} 个位置` : ''} · 每页 ${pad.slots} 个候选` : '';
+  const how = t({ sdl: '已识别型号', driver: '系统驱动映射', none: '未识别型号，建议先「检测按键」' }[pad.mapping]);
+  $('canvas-note').textContent = pad.connected
+    ? [how, t('{0} 个按键', n), learned ? t('检测过 {0} 个位置', learned) : '', t('每页 {0} 个候选', pad.slots)].filter(Boolean).join(' · ')
+    : '';
 }
 
 function onPad(p) {
@@ -245,8 +241,8 @@ function onPad(p) {
   const down = new Set(p.buttons.filter(b => b.pressed).map(b => String(b.code)));
   for (const r of document.querySelectorAll('.ov-row')) r.classList.toggle('down', down.has(r.dataset.code));
   $('dir-status').textContent = p.connected
-    ? `方向 ${p.dir == null ? '中位' : '↑↗→↘↓↙←↖'[p.dir]}${p.dir_source ? ' · ' + p.dir_source : ''}`
-    : '方向 —';
+    ? `${t('方向')} ${p.dir == null ? t('中位') : '↑↗→↘↓↙←↖'[p.dir]}${p.dir_source ? ' · ' + t(p.dir_source) : ''}`
+    : `${t('方向')} —`;
   wizardStep();
 }
 
@@ -254,14 +250,14 @@ function onPad(p) {
 function onView(v) {
   view = v;
   $('power').checked = v.enabled;
-  $('power-label').textContent = v.enabled ? '已开启' : '已暂停';
-  $('layer-order').textContent = v.layers.join(' → ');
+  $('power-label').textContent = v.enabled ? t('已开启') : t('已暂停');
+  $('layer-order').textContent = v.layers.map(layerShort).join(' → ');
 
   const grid = $('pgrid');
   grid.replaceChildren();
   GRID_DIRS.forEach((d, i) => {
     if (d === null) {
-      grid.append(el('div', 'pcell center', LAYER_NAMES[v.layer] || v.layer));
+      grid.append(el('div', 'pcell center', layerName(v.layer)));
       return;
     }
     const c = el('div', 'pcell' + (d === v.dir ? ' on' : ''));
@@ -269,7 +265,7 @@ function onView(v) {
     grid.append(c);
   });
 
-  $('pmeta').textContent = v.comp && v.pages > 1 ? `第 ${v.page + 1} / ${v.pages} 页 · 切换下一页 · 回车上一页` : '';
+  $('pmeta').textContent = v.comp && v.pages > 1 ? t('第 {0} / {1} 页 · 切换下一页 · 回车上一页', v.page + 1, v.pages) : '';
   renderPractice();
   if (pad) updateStick($('stick'));
 }
@@ -318,6 +314,7 @@ async function loadSettings() {
   $('set-punct').value = settings.cn_fullwidth ? 'full' : 'half';
   $('set-output').value = settings.output;
   $('set-learn').checked = settings.learn;
+  $('set-lang').value = settings.lang || 'auto';
   refreshUserDictCount();
   renderLayerRows();
 }
@@ -329,7 +326,7 @@ function renderLayerRows() {
   for (const [id, label, desc] of meta.layers) {
     const row = el('div', 'row');
     const text = el('div');
-    text.append(el('b', '', `${label}　${LAYER_NAMES[label] || ''}`), el('p', '', desc));
+    text.append(el('b', '', `${layerShort(label)}　${layerName(label)}`), el('p', '', desc));
     const sw = el('label', 'switch-row');
     const cb = el('input');
     cb.type = 'checkbox';
@@ -358,14 +355,15 @@ function saveSettings() {
     cn_fullwidth: $('set-punct').value === 'full',
     output: $('set-output').value,
     learn: $('set-learn').checked,
+    lang: $('set-lang').value,
   });
   invoke('set_settings', { settings });
 }
-for (const id of ['set-hint', 'set-hint-secs', 'set-follow', 'set-punct', 'set-output', 'set-learn']) $(id).addEventListener('change', saveSettings);
+for (const id of ['set-hint', 'set-hint-secs', 'set-follow', 'set-punct', 'set-output', 'set-learn', 'set-lang']) $(id).addEventListener('change', saveSettings);
 
 async function refreshUserDictCount() {
   const n = await invoke('userdict_len');
-  $('userdict-count').textContent = n ? `${n} 条` : '还没有';
+  $('userdict-count').textContent = n ? t('{0} 条', n) : t('还没有');
   $('btn-clear-userdict').disabled = !n;
 }
 
@@ -374,13 +372,13 @@ let clearArmed = null;
 $('btn-clear-userdict').onclick = () => {
   const b = $('btn-clear-userdict');
   if (!clearArmed) {
-    b.textContent = '再点一次确认清除';
-    clearArmed = setTimeout(() => { b.textContent = '清除'; clearArmed = null; }, 3000);
+    b.textContent = t('再点一次确认清除');
+    clearArmed = setTimeout(() => { b.textContent = t('清除'); clearArmed = null; }, 3000);
     return;
   }
   clearTimeout(clearArmed);
   clearArmed = null;
-  b.textContent = '清除';
+  b.textContent = t('清除');
   invoke('clear_userdict');
   // 后台存盘有 2 秒延迟，等它存完再刷新数字
   setTimeout(refreshUserDictCount, 2500);
@@ -402,13 +400,13 @@ $('wz-skip').onclick = () => { if (wz) { wz.i++; wizardRender(); } };
 function wizardRender() {
   const total = meta.positions.length;
   const done = wz.i >= total;
-  $('wz-step').textContent = done ? '完成' : `${wz.i + 1} / ${total}`;
+  $('wz-step').textContent = done ? t('完成') : `${wz.i + 1} / ${total}`;
   $('wz-skip').hidden = done;
   $('wz-presets').hidden = !done;
   $('wz-sub').hidden = done;
   if (done) {
-    $('wz-ask').innerHTML = `记下了 <em>${wz.found}</em> 个按键的位置。要套用哪种布局？`;
-    $('wz-cancel').textContent = '完成';
+    $('wz-ask').innerHTML = t('记下了 <em>{0}</em> 个按键的位置。要套用哪种布局？', wz.found);
+    $('wz-cancel').textContent = t('完成');
     drawStick($('wz-stick'));
     const box = $('wz-presets');
     box.replaceChildren();
@@ -419,9 +417,9 @@ function wizardRender() {
     }
     return;
   }
-  $('wz-cancel').textContent = '取消';
+  $('wz-cancel').textContent = t('取消');
   const pos = meta.positions[wz.i][0];
-  $('wz-ask').innerHTML = `按「<em>${posLabel(pos)}</em>」`;
+  $('wz-ask').innerHTML = t('按「<em>{0}</em>」', posLabel(pos));
   drawStick($('wz-stick'), { target: pos });
 }
 
@@ -443,7 +441,8 @@ function wizardStep() {
 
 // ---------- 启动 ----------
 (async () => {
-  meta = await invoke('get_meta');
+  await LANG_READY;
+  meta = localizeMeta(await invoke('get_meta'));
   listen('pad', onPad);
   listen('view', onView);
   loadSettings();

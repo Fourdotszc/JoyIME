@@ -22,6 +22,8 @@ pub struct Settings {
     pub output: String,
     /// 记住用户常用的字词，下次排在前面
     pub learn: bool,
+    /// 界面语言："zh" / "en" / "auto" 跟随 Windows 显示语言（见 i18n.rs）
+    pub lang: String,
 }
 
 impl Default for Settings {
@@ -34,6 +36,7 @@ impl Default for Settings {
             cn_fullwidth: true,
             output: "auto".into(),
             learn: true,
+            lang: "auto".into(),
         }
     }
 }

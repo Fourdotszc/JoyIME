@@ -3,6 +3,7 @@
 mod caret;
 mod engine;
 mod focus;
+mod i18n;
 #[cfg(windows)]
 mod ime;
 mod overlay;
@@ -14,7 +15,7 @@ use engine::{Cmd, CmdTx};
 use std::sync::atomic::Ordering;
 use tauri::menu::{Menu, MenuItem};
 use tauri::tray::{MouseButton, MouseButtonState, TrayIconBuilder, TrayIconEvent};
-use tauri::{AppHandle, Manager, State, WebviewUrl, WebviewWindowBuilder, WindowEvent};
+use tauri::{AppHandle, Emitter, Manager, State, WebviewUrl, WebviewWindowBuilder, WindowEvent};
 
 fn send(tx: &State<CmdTx>, cmd: Cmd) {
     if let Ok(tx) = tx.lock() {
@@ -61,12 +62,42 @@ fn get_settings(state: State<SettingsState>) -> settings::Settings {
 }
 
 #[tauri::command]
-fn set_settings(state: State<SettingsState>, tx: State<CmdTx>, settings: settings::Settings) {
+fn set_settings(app: AppHandle, state: State<SettingsState>, tx: State<CmdTx>, settings: settings::Settings) {
+    let mut lang_changed = false;
     if let Ok(mut s) = state.lock() {
         settings::save(&s.0, &settings);
+        lang_changed = i18n::resolve(&s.1.lang) != i18n::resolve(&settings.lang);
         s.1 = settings.clone();
     }
+    if lang_changed {
+        apply_lang(&app, i18n::resolve(&settings.lang));
+    }
     send(&tx, Cmd::SetSettings(settings));
+}
+
+/// 界面用的语言（"zh" / "en"）
+#[tauri::command]
+fn get_lang(state: State<SettingsState>) -> &'static str {
+    state.lock().map(|s| i18n::resolve(&s.1.lang)).unwrap_or("zh")
+}
+
+/// 托盘菜单项，换语言时改它们的字
+struct TrayItems(Vec<(&'static str, MenuItem<tauri::Wry>)>);
+
+/// 换了界面语言：托盘、窗口标题改字，两个网页收到 lang 事件后重新加载
+fn apply_lang(app: &AppHandle, lang: &str) {
+    if let Some(items) = app.try_state::<TrayItems>() {
+        for (key, item) in &items.0 {
+            let _ = item.set_text(i18n::text(lang, key));
+        }
+    }
+    if let Some(tray) = app.tray_by_id("main") {
+        let _ = tray.set_tooltip(Some(i18n::text(lang, "title")));
+    }
+    if let Some(w) = app.get_webview_window("settings") {
+        let _ = w.set_title(i18n::text(lang, "title"));
+    }
+    let _ = app.emit("lang", lang);
 }
 
 /// 用户词库记了多少条
@@ -107,6 +138,7 @@ pub fn run() {
             set_settings,
             userdict_len,
             clear_userdict,
+            get_lang,
             log_ui
         ])
         .setup(|app| {
@@ -151,8 +183,18 @@ pub fn run() {
             };
             #[cfg(not(windows))]
             let ime_server: Option<engine::ImeHandle> = None;
+            // 开发用：JOYIME_CONFIG_DIR 指一个临时目录，测试时不碰用户自己的设置和词库
+            let config = match std::env::var_os("JOYIME_CONFIG_DIR") {
+                Some(d) => std::path::PathBuf::from(d),
+                None => app.path().app_config_dir()?,
+            };
+            let settings_path = settings::path(&config);
+            let current = settings::load(&settings_path);
+            let lang = i18n::resolve(&current.lang);
+            app.manage::<SettingsState>(std::sync::Mutex::new((settings_path, current.clone())));
+
             let settings = WebviewWindowBuilder::new(app, "settings", WebviewUrl::App("settings.html".into()))
-                .title("JoyIME 摇杆输入法")
+                .title(i18n::text(lang, "title"))
                 .visible(!hidden)
                 .focused(!hidden)
                 .inner_size(1180.0, 760.0)
@@ -189,18 +231,17 @@ pub fn run() {
             // 窗口比面板大，透明的地方不能挡住下面程序的鼠标点击
             let _ = overlay.set_ignore_cursor_events(true);
 
-            let menu = Menu::with_items(
-                app,
-                &[
-                    &MenuItem::with_id(app, "open", "打开设置", true, None::<&str>)?,
-                    &MenuItem::with_id(app, "pause", "暂停输入", true, None::<&str>)?,
-                    &MenuItem::with_id(app, "resume", "恢复输入", true, None::<&str>)?,
-                    &MenuItem::with_id(app, "quit", "退出 JoyIME", true, None::<&str>)?,
-                ],
-            )?;
+            let mut items = Vec::new();
+            for key in ["open", "pause", "resume", "quit"] {
+                items.push((key, MenuItem::with_id(app, key, i18n::text(lang, key), true, None::<&str>)?));
+            }
+            let refs: Vec<&dyn tauri::menu::IsMenuItem<tauri::Wry>> =
+                items.iter().map(|(_, m)| m as &dyn tauri::menu::IsMenuItem<tauri::Wry>).collect();
+            let menu = Menu::with_items(app, &refs)?;
+            app.manage(TrayItems(items));
             TrayIconBuilder::with_id("main")
                 .icon(app.default_window_icon().cloned().expect("缺少图标"))
-                .tooltip("JoyIME 摇杆输入法")
+                .tooltip(i18n::text(lang, "title"))
                 .menu(&menu)
                 .show_menu_on_left_click(false)
                 .on_menu_event(|app, e| match e.id().as_ref() {
@@ -219,14 +260,6 @@ pub fn run() {
 
             let (tx, rx) = std::sync::mpsc::channel();
             app.manage::<CmdTx>(std::sync::Mutex::new(tx));
-            // 开发用：JOYIME_CONFIG_DIR 指一个临时目录，测试时不碰用户自己的设置和词库
-            let config = match std::env::var_os("JOYIME_CONFIG_DIR") {
-                Some(d) => std::path::PathBuf::from(d),
-                None => app.path().app_config_dir()?,
-            };
-            let settings_path = settings::path(&config);
-            let current = settings::load(&settings_path);
-            app.manage::<SettingsState>(std::sync::Mutex::new((settings_path, current.clone())));
             let focus = focus::spawn();
             engine::spawn(
                 app.handle().clone(),

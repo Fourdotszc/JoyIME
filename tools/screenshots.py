@@ -1,5 +1,5 @@
 """README 用的截图：用无界面 Chrome 打开设置窗口 / 候选窗的页面（浏览器里没有后台程序，用页面自带的演示数据），
-存到 docs/images/。
+存到 docs/images/。中文界面存 xxx.png（中文 README 用），英文界面存 xxx-en.png（英文 README 用）。
 
     python tools/screenshots.py
 """
@@ -15,20 +15,23 @@ CHROME = os.environ.get("CHROME", r"C:\Program Files\Google\Chrome\Application\c
 
 SHOTS = [
     # 文件名, 页面, 窗口大小, 等多久（毫秒，演示数据 600ms 推一次）
-    ("settings-controller", "settings.html#controller", "1180,760", 2500),
-    ("settings-input", "settings.html#input", "1180,760", 2500),
-    ("settings-practice", "settings.html#practice", "1180,760", 2500),
-    ("overlay", "overlay.html", "900,150", 1500),
-    ("overlay-pyfocus", "overlay.html?demo=pyfocus", "900,150", 1500),
-    ("overlay-pinned", "overlay.html?demo=pinyin", "900,150", 1500),
+    ("settings-controller", "settings.html?#controller", "1180,760", 2500),
+    ("settings-input", "settings.html?#input", "1180,760", 2500),
+    ("settings-practice", "settings.html?#practice", "1180,760", 2500),
+    ("overlay", "overlay.html?", "900,150", 1500),
+    ("overlay-pyfocus", "overlay.html?demo=pyfocus&", "900,150", 1500),
+    ("overlay-pinned", "overlay.html?demo=pinyin&", "900,150", 1500),
 ]
+LANGS = [("zh", ""), ("en", "-en")]
 
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as profile:
-        for name, page, size, wait in SHOTS:
-            path = OUT / f"{name}.png"
+        for (name, page, size, wait), (lang, suffix) in ((s, l) for s in SHOTS for l in LANGS):
+            path = OUT / f"{name}{suffix}.png"
+            # 页面地址里的 ? 后面插上语言（# 要留在最后）
+            page = page.replace("?", f"?lang={lang}&", 1)
             subprocess.run(
                 [
                     CHROME,

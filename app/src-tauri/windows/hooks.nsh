@@ -42,7 +42,7 @@
   Pop $1
   ${If} $0 != 0
   ${OrIf} $1 != 0
-    MessageBox MB_ICONEXCLAMATION "注册系统输入法没有成功（$0 / $1）。可以重新运行安装程序再试一次。"
+    MessageBox MB_ICONEXCLAMATION "注册系统输入法没有成功（$0 / $1）。可以重新运行安装程序再试一次。$\r$\n$\r$\nCould not register the input method ($0 / $1). Please run the installer again."
   ${EndIf}
 !macroend
 

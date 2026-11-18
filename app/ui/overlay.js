@@ -22,7 +22,7 @@ function render(v) {
   dirs.replaceChildren();
   GRID_DIRS.forEach((d, i) => {
     if (d === null) {
-      dirs.append(el('span', 'center', v.enabled ? v.layer : '停'));
+      dirs.append(el('span', 'center', v.enabled ? layerShort(v.layer) : t('停')));
       return;
     }
     const cell = el('span', d === v.dir ? 'on' : '');
@@ -48,15 +48,15 @@ function render(v) {
   const toast = $('toast');
   toast.replaceChildren();
   if (mode === 'toast') {
-    toast.append(v.enabled ? LAYER_NAMES[v.layer] || v.layer : '已暂停');
-    toast.append(el('small', '', v.enabled ? v.layers.join(' → ') : '按「开关」键恢复'));
+    toast.append(v.enabled ? layerName(v.layer) : t('已暂停'));
+    toast.append(el('small', '', v.enabled ? v.layers.map(layerShort).join(' → ') : t('按「开关」键恢复')));
   }
   $('page').innerHTML = composing && v.pages > 1 ? `${v.page + 1}/${v.pages}<br>▸ ◂` : '';
   $('page').hidden = !(composing && v.pages > 1);
   $('main').querySelector('.read').hidden = !composing;
 }
 
-listen('view', render);
+LANG_READY.then(() => listen('view', render));
 
 // 开发日志里记下悬浮窗实际有多大（不同缩放比例下布局会不会挤）
 window.addEventListener('resize', reportSize);
