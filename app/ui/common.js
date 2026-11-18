@@ -63,7 +63,7 @@ const DEMO_META = {
   actions: [
     ['slot0', '字母 / 候选 1', ''], ['slot1', '字母 / 候选 2', ''], ['slot2', '字母 / 候选 3', ''], ['slot3', '字母 / 候选 4', ''],
     ['space', '空格', ''], ['backspace', '退格', ''], ['enter', '回车 / 上一页', ''], ['cycle_layer', '切换 / 下一页', ''],
-    ['next_page', '下一页', ''], ['prev_page', '上一页', ''], ['escape', '清空', ''], ['shift', '大写', ''], ['toggle', '开关输入法', ''],
+    ['next_page', '下一页', ''], ['prev_page', '上一页', ''], ['escape', '清空', ''], ['shift', '大写', ''], ['toggle', '开关输入法', ''], ['pinyin', '选拼音', ''],
   ],
   presets: [['arcade8', '街机摇杆 · 8 键'], ['arcade6', '街机摇杆 · 6 键'], ['gamepad', '游戏手柄']],
   layers: [
@@ -80,12 +80,12 @@ const DEMO_META = {
 
 const DEMO_PAD = (() => {
   const std = ['West', 'North', 'RightTrigger', 'LeftTrigger', 'South', 'East', 'RightTrigger2', 'LeftTrigger2', 'Select', 'Start', 'Mode'];
-  const act = ['slot0', 'slot1', 'slot2', 'slot3', 'space', 'backspace', 'cycle_layer', 'enter', 'escape', null, 'toggle'];
+  const act = ['slot0', 'slot1', 'slot2', 'slot3', 'space', 'backspace', 'cycle_layer', 'enter', 'escape', 'pinyin', 'toggle'];
   const bindings = {};
   std.forEach((_, i) => act[i] && (bindings[i] = act[i]));
   return {
     connected: true,
-    name: 'QANBA DRONE ARCADE JOYSTICK（演示数据）',
+    name: '8 键街机摇杆（演示）',
     key: '030000002c2200000020000000000000',
     mapping: 'sdl',
     buttons: std.map((s, i) => ({ code: i, std_name: s, pressed: false, action: act[i] })),
@@ -102,6 +102,19 @@ const DEMO_VIEW = {
   grid: ['jkl', 'abc', 'def', 'ghi', '', 'mno', 'pqrs', 'tuv', 'wxyz'],
   pinned: [], py_opts: ['ni', 'mi', 'oh'], py_focus: false, py_page: 0, py_pages: 1,
 };
+// 截图用：?demo=pinyin 演示按住空格选拼音（9426 → 拼音栏亮着）
+if (!TAURI && new URLSearchParams(location.search).get('demo') === 'pinyin') {
+  Object.assign(DEMO_VIEW, {
+    dir: null, comp: '9426', comp_display: 'xian', cands: ['先', '线', '现在', '县'], pages: 44,
+    pinned: ['xian'], py_opts: [], py_focus: false,
+  });
+}
+if (!TAURI && new URLSearchParams(location.search).get('demo') === 'pyfocus') {
+  Object.assign(DEMO_VIEW, {
+    dir: null, comp: '9426', comp_display: 'xiao', cands: ['小', '先', '找', '线'], pages: 250,
+    py_opts: ['xian', 'xiao', 'zhao', 'zhan'], py_focus: true, py_page: 0, py_pages: 3,
+  });
+}
 
 /**
  * 中文九宫格的拼音栏（悬浮窗和练习区共用）：定下的音节 + 可选的音节。

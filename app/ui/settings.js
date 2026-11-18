@@ -58,6 +58,9 @@ $('tabs').addEventListener('click', e => {
   for (const p of document.querySelectorAll('.page')) p.classList.toggle('on', p.id === 'page-' + b.dataset.page);
 });
 
+// 地址里带 #input 之类就直接打开那一页（浏览器预览、截图用）
+if (location.hash) document.querySelector(`#tabs [data-page="${location.hash.slice(1)}"]`)?.click();
+
 $('power').addEventListener('change', e => invoke('set_enabled', { on: e.target.checked }));
 
 // ---------- 摇杆线稿 ----------
