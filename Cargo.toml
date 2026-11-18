@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = ["crates/*", "app/src-tauri"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+opt-level = 3
+
+# 开发版里词库引擎也开优化，不然载入和查询慢十倍，调试时手感和发布版差太多
+[profile.dev.package.joyime-pinyin]
+opt-level = 3
+[profile.dev.package.joyime-english]
+opt-level = 3

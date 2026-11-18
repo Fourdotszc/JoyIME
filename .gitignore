@@ -1,0 +1,11 @@
+/target/
+**/target/
+node_modules/
+/app/src-tauri/gen/
+*.log
+# 开发过程中的委派任务记录、本机预览配置
+/docs/tasks/
+/.claude/
+# 测试时的输出
+/e2e*.txt
+/tsf-out.txt

@@ -1,0 +1,6324 @@
+[
+ {
+  "mode": "letters",
+  "raw": "n",
+  "count": 15,
+  "top": [
+   {
+    "w": "你",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "嗯",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "那",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "呢",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "能",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "年",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "您",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "内",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "那个",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "拿",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "哪",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "你们",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "那么",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "弄",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "唔",
+    "rawLen": 1,
+    "reading": "n"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "ni",
+  "count": 95,
+  "top": [
+   {
+    "w": "你",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "年",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "你们",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "拟",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "尼",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "呢",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "泥",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "妳",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "您",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "你的",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "妮",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "腻",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "逆",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "倪",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "你好",
+    "rawLen": 2,
+    "reading": "ni"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "nih",
+  "count": 90,
+  "top": [
+   {
+    "w": "你好",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "你会",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "你还",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "你和",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "你很",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "你好啊",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "你还会",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "你好吗",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "拟合",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "霓虹灯",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "霓虹",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "你",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "拟",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "尼",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "呢",
+    "rawLen": 2,
+    "reading": "ni"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "nihao",
+  "count": 82,
+  "top": [
+   {
+    "w": "你好",
+    "rawLen": 5,
+    "reading": "ni'hao"
+   },
+   {
+    "w": "你好啊",
+    "rawLen": 5,
+    "reading": "ni'hao"
+   },
+   {
+    "w": "你好吗",
+    "rawLen": 5,
+    "reading": "ni'hao"
+   },
+   {
+    "w": "你",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "拟",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "尼",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "呢",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "泥",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "妳",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "妮",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "腻",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "逆",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "倪",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "昵",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "匿",
+    "rawLen": 2,
+    "reading": "ni"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "nihaoma",
+  "count": 81,
+  "top": [
+   {
+    "w": "你好吗",
+    "rawLen": 7,
+    "reading": "ni'hao'ma"
+   },
+   {
+    "w": "你好",
+    "rawLen": 5,
+    "reading": "ni'hao"
+   },
+   {
+    "w": "你",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "拟",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "尼",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "呢",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "泥",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "妳",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "妮",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "腻",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "逆",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "倪",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "昵",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "匿",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "霓",
+    "rawLen": 2,
+    "reading": "ni"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "woxihuanni",
+  "count": 65,
+  "top": [
+   {
+    "w": "我喜欢你",
+    "rawLen": 10,
+    "reading": "wo'xi'huan'ni"
+   },
+   {
+    "w": "我",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "喔",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "窝",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "握",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "卧",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "沃",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "硪",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "涡",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "倭",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "渥",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "蜗",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "斡",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "肟",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "偓",
+    "rawLen": 2,
+    "reading": "wo"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "jintiantianqihenhao",
+  "count": 339,
+  "top": [
+   {
+    "w": "今天天气很好",
+    "rawLen": 19,
+    "reading": "jin'tian'tian'qi'hen'hao"
+   },
+   {
+    "w": "今天",
+    "rawLen": 7,
+    "reading": "jin'tian"
+   },
+   {
+    "w": "进",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "金",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "近",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "仅",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "尽",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "紧",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "今",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "劲",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "斤",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "锦",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "禁",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "晋",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "津",
+    "rawLen": 3,
+    "reading": "jin"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "zhongguoren",
+  "count": 91,
+  "top": [
+   {
+    "w": "中国人",
+    "rawLen": 11,
+    "reading": "zhong'guo'ren"
+   },
+   {
+    "w": "中国人民",
+    "rawLen": 11,
+    "reading": "zhong'guo'ren"
+   },
+   {
+    "w": "中国人寿",
+    "rawLen": 11,
+    "reading": "zhong'guo'ren"
+   },
+   {
+    "w": "中国人口",
+    "rawLen": 11,
+    "reading": "zhong'guo'ren"
+   },
+   {
+    "w": "中国",
+    "rawLen": 8,
+    "reading": "zhong'guo"
+   },
+   {
+    "w": "中古",
+    "rawLen": 7,
+    "reading": "zhong'gu"
+   },
+   {
+    "w": "中",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "种",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "重",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "钟",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "仲",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "众",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "忠",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "终",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "肿",
+    "rawLen": 5,
+    "reading": "zhong"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "xian",
+  "count": 466,
+  "top": [
+   {
+    "w": "先",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "线",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "现在",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "县",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "现",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "西安",
+    "rawLen": 4,
+    "reading": "xi'an"
+   },
+   {
+    "w": "咁",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "想",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "闲",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "仙",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "显",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "嫌",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "向",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "贤",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "限",
+    "rawLen": 4,
+    "reading": "xian"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "xi'an",
+  "count": 227,
+  "top": [
+   {
+    "w": "西安",
+    "rawLen": 5,
+    "reading": "xi'an"
+   },
+   {
+    "w": "西岸",
+    "rawLen": 5,
+    "reading": "xi'an"
+   },
+   {
+    "w": "西安市",
+    "rawLen": 5,
+    "reading": "xi'an"
+   },
+   {
+    "w": "系",
+    "rawLen": 3,
+    "reading": "xi"
+   },
+   {
+    "w": "西",
+    "rawLen": 3,
+    "reading": "xi"
+   },
+   {
+    "w": "洗",
+    "rawLen": 3,
+    "reading": "xi"
+   },
+   {
+    "w": "戏",
+    "rawLen": 3,
+    "reading": "xi"
+   },
+   {
+    "w": "喜",
+    "rawLen": 3,
+    "reading": "xi"
+   },
+   {
+    "w": "係",
+    "rawLen": 3,
+    "reading": "xi"
+   },
+   {
+    "w": "细",
+    "rawLen": 3,
+    "reading": "xi"
+   },
+   {
+    "w": "吸",
+    "rawLen": 3,
+    "reading": "xi"
+   },
+   {
+    "w": "希",
+    "rawLen": 3,
+    "reading": "xi"
+   },
+   {
+    "w": "溪",
+    "rawLen": 3,
+    "reading": "xi"
+   },
+   {
+    "w": "锡",
+    "rawLen": 3,
+    "reading": "xi"
+   },
+   {
+    "w": "息",
+    "rawLen": 3,
+    "reading": "xi"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "fangan",
+  "count": 138,
+  "top": [
+   {
+    "w": "方案",
+    "rawLen": 6,
+    "reading": "fang'an"
+   },
+   {
+    "w": "反感",
+    "rawLen": 6,
+    "reading": "fan'gan"
+   },
+   {
+    "w": "范甘迪",
+    "rawLen": 6,
+    "reading": "fan'gan"
+   },
+   {
+    "w": "方案设计",
+    "rawLen": 6,
+    "reading": "fang'an"
+   },
+   {
+    "w": "放",
+    "rawLen": 4,
+    "reading": "fang"
+   },
+   {
+    "w": "方",
+    "rawLen": 4,
+    "reading": "fang"
+   },
+   {
+    "w": "房",
+    "rawLen": 4,
+    "reading": "fang"
+   },
+   {
+    "w": "防",
+    "rawLen": 4,
+    "reading": "fang"
+   },
+   {
+    "w": "芳",
+    "rawLen": 4,
+    "reading": "fang"
+   },
+   {
+    "w": "坊",
+    "rawLen": 4,
+    "reading": "fang"
+   },
+   {
+    "w": "仿",
+    "rawLen": 4,
+    "reading": "fang"
+   },
+   {
+    "w": "访",
+    "rawLen": 4,
+    "reading": "fang"
+   },
+   {
+    "w": "纺",
+    "rawLen": 4,
+    "reading": "fang"
+   },
+   {
+    "w": "舫",
+    "rawLen": 4,
+    "reading": "fang"
+   },
+   {
+    "w": "妨",
+    "rawLen": 4,
+    "reading": "fang"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "fang'an",
+  "count": 136,
+  "top": [
+   {
+    "w": "方案",
+    "rawLen": 7,
+    "reading": "fang'an"
+   },
+   {
+    "w": "方案设计",
+    "rawLen": 7,
+    "reading": "fang'an"
+   },
+   {
+    "w": "放",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "方",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "房",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "防",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "芳",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "坊",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "仿",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "访",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "纺",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "舫",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "妨",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "枋",
+    "rawLen": 5,
+    "reading": "fang"
+   },
+   {
+    "w": "昉",
+    "rawLen": 5,
+    "reading": "fang"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "nv",
+  "count": 48,
+  "top": [
+   {
+    "w": "女",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女人",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女孩",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女儿",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女生",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女性",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女子",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女朋友",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女孩子",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女士",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女友",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女的",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "钕",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女主角",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "女王",
+    "rawLen": 2,
+    "reading": "nv"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "lvse",
+  "count": 81,
+  "top": [
+   {
+    "w": "绿色",
+    "rawLen": 4,
+    "reading": "lv'se"
+   },
+   {
+    "w": "绿色食品",
+    "rawLen": 4,
+    "reading": "lv'se"
+   },
+   {
+    "w": "绿色版",
+    "rawLen": 4,
+    "reading": "lv'se"
+   },
+   {
+    "w": "绿色通道",
+    "rawLen": 4,
+    "reading": "lv'se"
+   },
+   {
+    "w": "绿色环保",
+    "rawLen": 4,
+    "reading": "lv'se"
+   },
+   {
+    "w": "率",
+    "rawLen": 2,
+    "reading": "lv"
+   },
+   {
+    "w": "绿",
+    "rawLen": 2,
+    "reading": "lv"
+   },
+   {
+    "w": "吕",
+    "rawLen": 2,
+    "reading": "lv"
+   },
+   {
+    "w": "铝",
+    "rawLen": 2,
+    "reading": "lv"
+   },
+   {
+    "w": "驴",
+    "rawLen": 2,
+    "reading": "lv"
+   },
+   {
+    "w": "旅",
+    "rawLen": 2,
+    "reading": "lv"
+   },
+   {
+    "w": "律",
+    "rawLen": 2,
+    "reading": "lv"
+   },
+   {
+    "w": "屡",
+    "rawLen": 2,
+    "reading": "lv"
+   },
+   {
+    "w": "氯",
+    "rawLen": 2,
+    "reading": "lv"
+   },
+   {
+    "w": "履",
+    "rawLen": 2,
+    "reading": "lv"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "shi",
+  "count": 198,
+  "top": [
+   {
+    "w": "是",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "时",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "事",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "使",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "市",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "式",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "试",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "石",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "十",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "室",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "师",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "诗",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "时候",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "食",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "史",
+    "rawLen": 3,
+    "reading": "shi"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "woshi",
+  "count": 72,
+  "top": [
+   {
+    "w": "我是",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "我市",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "卧室",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "卧式",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "我是个",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "我是谁",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "我是你",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "卧室里",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "我",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "喔",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "窝",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "握",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "卧",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "沃",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "硪",
+    "rawLen": 2,
+    "reading": "wo"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "zhangsan",
+  "count": 210,
+  "top": [
+   {
+    "w": "张三",
+    "rawLen": 8,
+    "reading": "zhang'san"
+   },
+   {
+    "w": "张三丰",
+    "rawLen": 8,
+    "reading": "zhang'san"
+   },
+   {
+    "w": "张",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "涨",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "长",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "章",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "帐",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "掌",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "账",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "杖",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "仗",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "胀",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "丈",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "障",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "彰",
+    "rawLen": 5,
+    "reading": "zhang"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "zhen",
+  "count": 203,
+  "top": [
+   {
+    "w": "真",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "镇",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "针",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "阵",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "震",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "振",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "珍",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "真的",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "枕",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "政府",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "帧",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "正在",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "朕",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "真是",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "真正",
+    "rawLen": 4,
+    "reading": "zhen"
+   }
+  ],
+  "contains": [
+   "甄"
+  ]
+ },
+ {
+  "mode": "letters",
+  "raw": "zhen'",
+  "count": 203,
+  "top": [
+   {
+    "w": "真",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "镇",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "针",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "阵",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "震",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "振",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "珍",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "真的",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "枕",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "帧",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "朕",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "真是",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "真正",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "贞",
+    "rawLen": 5,
+    "reading": "zhen"
+   },
+   {
+    "w": "针对",
+    "rawLen": 5,
+    "reading": "zhen"
+   }
+  ],
+  "contains": [
+   "甄"
+  ]
+ },
+ {
+  "mode": "letters",
+  "raw": "nh",
+  "count": 40,
+  "top": [
+   {
+    "w": "你好",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "女孩",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "您好",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "你会",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "男孩",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "你还",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "内涵",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "年后",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "农户",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "内核",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "南海",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "农行",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "浓厚",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "那好",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "弄好",
+    "rawLen": 2,
+    "reading": "n'h"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "wxhn",
+  "count": 42,
+  "top": [
+   {
+    "w": "我喜欢你",
+    "rawLen": 4,
+    "reading": "w'x'h'n"
+   },
+   {
+    "w": "微循环",
+    "rawLen": 3,
+    "reading": "w'x'h"
+   },
+   {
+    "w": "我想",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "危险",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "无线",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "微笑",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "威胁",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "无限",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "文学",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "维修",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "玩笑",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "无锡",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "卫星",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "无效",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "文献",
+    "rawLen": 2,
+    "reading": "w'x"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "wxh",
+  "count": 43,
+  "top": [
+   {
+    "w": "微循环",
+    "rawLen": 3,
+    "reading": "w'x'h"
+   },
+   {
+    "w": "五星红旗",
+    "rawLen": 3,
+    "reading": "w'x'h"
+   },
+   {
+    "w": "我学会了",
+    "rawLen": 3,
+    "reading": "w'x'h"
+   },
+   {
+    "w": "我想",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "危险",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "无线",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "微笑",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "威胁",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "无限",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "文学",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "维修",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "玩笑",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "无锡",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "卫星",
+    "rawLen": 2,
+    "reading": "w'x"
+   },
+   {
+    "w": "无效",
+    "rawLen": 2,
+    "reading": "w'x"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "zg",
+  "count": 40,
+  "top": [
+   {
+    "w": "这个",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "中国",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "整个",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "最高",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "找个",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "足够",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "照顾",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "资格",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "职工",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "主管",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "做过",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "中共",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "做个",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "祖国",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "走过",
+    "rawLen": 2,
+    "reading": "z'g"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "zgr",
+  "count": 47,
+  "top": [
+   {
+    "w": "中国人",
+    "rawLen": 3,
+    "reading": "z'g'r"
+   },
+   {
+    "w": "这个人",
+    "rawLen": 3,
+    "reading": "z'g'r"
+   },
+   {
+    "w": "张国荣",
+    "rawLen": 3,
+    "reading": "z'g'r"
+   },
+   {
+    "w": "整个人",
+    "rawLen": 3,
+    "reading": "z'g'r"
+   },
+   {
+    "w": "中国人民",
+    "rawLen": 3,
+    "reading": "z'g'r"
+   },
+   {
+    "w": "中国人寿",
+    "rawLen": 3,
+    "reading": "z'g'r"
+   },
+   {
+    "w": "中国人口",
+    "rawLen": 3,
+    "reading": "z'g'r"
+   },
+   {
+    "w": "这个",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "中国",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "整个",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "最高",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "找个",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "足够",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "照顾",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "资格",
+    "rawLen": 2,
+    "reading": "z'g"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "bj",
+  "count": 40,
+  "top": [
+   {
+    "w": "比较",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "北京",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "不仅",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "毕竟",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "背景",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "编辑",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "报价",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "不见",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "不久",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "布局",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "搬家",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "标记",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "报警",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "不禁",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "不急",
+    "rawLen": 2,
+    "reading": "b'j"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "xx",
+  "count": 40,
+  "top": [
+   {
+    "w": "信息",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "谢谢",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "学校",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "学习",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "消息",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "相信",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "休息",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "现象",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "小心",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "形象",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "详细",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "嘻嘻",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "想想",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "信心",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "想象",
+    "rawLen": 2,
+    "reading": "x'x"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "nhao",
+  "count": 41,
+  "top": [
+   {
+    "w": "你好",
+    "rawLen": 4,
+    "reading": "n'hao"
+   },
+   {
+    "w": "你好啊",
+    "rawLen": 3,
+    "reading": "n'h'a"
+   },
+   {
+    "w": "女孩",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "您好",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "你会",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "男孩",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "你还",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "内涵",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "年后",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "农户",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "内核",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "南海",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "农行",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "浓厚",
+    "rawLen": 2,
+    "reading": "n'h"
+   },
+   {
+    "w": "那好",
+    "rawLen": 2,
+    "reading": "n'h"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "jtq",
+  "count": 43,
+  "top": [
+   {
+    "w": "今天去",
+    "rawLen": 3,
+    "reading": "j't'q"
+   },
+   {
+    "w": "具体情况",
+    "rawLen": 3,
+    "reading": "j't'q"
+   },
+   {
+    "w": "集体企业",
+    "rawLen": 3,
+    "reading": "j't'q"
+   },
+   {
+    "w": "今天",
+    "rawLen": 2,
+    "reading": "j't"
+   },
+   {
+    "w": "具体",
+    "rawLen": 2,
+    "reading": "j't"
+   },
+   {
+    "w": "集团",
+    "rawLen": 2,
+    "reading": "j't"
+   },
+   {
+    "w": "家庭",
+    "rawLen": 2,
+    "reading": "j't"
+   },
+   {
+    "w": "几天",
+    "rawLen": 2,
+    "reading": "j't"
+   },
+   {
+    "w": "交通",
+    "rawLen": 2,
+    "reading": "j't"
+   },
+   {
+    "w": "镜头",
+    "rawLen": 2,
+    "reading": "j't"
+   },
+   {
+    "w": "集体",
+    "rawLen": 2,
+    "reading": "j't"
+   },
+   {
+    "w": "截图",
+    "rawLen": 2,
+    "reading": "j't"
+   },
+   {
+    "w": "街头",
+    "rawLen": 2,
+    "reading": "j't"
+   },
+   {
+    "w": "静态",
+    "rawLen": 2,
+    "reading": "j't"
+   },
+   {
+    "w": "巨头",
+    "rawLen": 2,
+    "reading": "j't"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "dd",
+  "count": 39,
+  "top": [
+   {
+    "w": "得到",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "达到",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "到底",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "等等",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "当地",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "等待",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "大大",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "道德",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "弟弟",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "订单",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "多大",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "地点",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "单独",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "党的",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "大多",
+    "rawLen": 2,
+    "reading": "d'd"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "n'h",
+  "count": 40,
+  "top": [
+   {
+    "w": "你好",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "女孩",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "您好",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "你会",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "男孩",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "你还",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "内涵",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "年后",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "农户",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "内核",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "南海",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "农行",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "浓厚",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "那好",
+    "rawLen": 3,
+    "reading": "n'h"
+   },
+   {
+    "w": "弄好",
+    "rawLen": 3,
+    "reading": "n'h"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "a",
+  "count": 20,
+  "top": [
+   {
+    "w": "啊",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "阿",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "爱",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "吖",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "唉",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "按",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "哎",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "俺",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "安",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "安全",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "安装",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "按照",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "奥",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "安排",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "爱情",
+    "rawLen": 1,
+    "reading": "a"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "e",
+  "count": 94,
+  "top": [
+   {
+    "w": "恩",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "而",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "额",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "俄",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "饿",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "呃",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "恶",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "哦",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "嗯",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "厄",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "二",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "而且",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "诶",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "儿",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "鹅",
+    "rawLen": 1,
+    "reading": "e"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "o",
+  "count": 20,
+  "top": [
+   {
+    "w": "哦",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "噢",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "偶",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "喔",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "欧",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "欧洲",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "偶尔",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "偶像",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "欧盟",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "欧美",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "偶然",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "欧元",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "藕",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "哦哦",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "欧阳",
+    "rawLen": 1,
+    "reading": "o"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "ang",
+  "count": 82,
+  "top": [
+   {
+    "w": "昂",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "盎",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "昂贵",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "按规定",
+    "rawLen": 3,
+    "reading": "an'g"
+   },
+   {
+    "w": "肮脏",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "肮",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "鞍钢",
+    "rawLen": 3,
+    "reading": "an'g"
+   },
+   {
+    "w": "昂达",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "安格",
+    "rawLen": 3,
+    "reading": "an'g"
+   },
+   {
+    "w": "盎司",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "安哥拉",
+    "rawLen": 3,
+    "reading": "an'g"
+   },
+   {
+    "w": "盎然",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "昂扬",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "昻",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "醠",
+    "rawLen": 3,
+    "reading": "ang"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "qxjkq",
+  "count": 42,
+  "top": [
+   {
+    "w": "气象局空气",
+    "rawLen": 5,
+    "reading": "q'x'j'k'q"
+   },
+   {
+    "w": "气象局",
+    "rawLen": 3,
+    "reading": "q'x'j"
+   },
+   {
+    "w": "取消",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "情绪",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "权限",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "全新",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "清晰",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "倾向",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "期限",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "缺陷",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "情形",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "清醒",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "气息",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "曲线",
+    "rawLen": 2,
+    "reading": "q'x"
+   },
+   {
+    "w": "清洗",
+    "rawLen": 2,
+    "reading": "q'x"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "diannao",
+  "count": 164,
+  "top": [
+   {
+    "w": "电脑",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑城",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑前",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑里",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑报",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑屏幕",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑桌",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑游戏",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑公司",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑知识",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑系统",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "点",
+    "rawLen": 4,
+    "reading": "dian"
+   },
+   {
+    "w": "店",
+    "rawLen": 4,
+    "reading": "dian"
+   },
+   {
+    "w": "电",
+    "rawLen": 4,
+    "reading": "dian"
+   },
+   {
+    "w": "殿",
+    "rawLen": 4,
+    "reading": "dian"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "yu",
+  "count": 295,
+  "top": [
+   {
+    "w": "与",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "于",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "鱼",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "雨",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "玉",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "欲",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "余",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "语",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "宇",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "月",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "遇",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "羽",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "域",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "愈",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "预",
+    "rawLen": 2,
+    "reading": "yu"
+   }
+  ],
+  "contains": [
+   "毓"
+  ]
+ },
+ {
+  "mode": "letters",
+  "raw": "yu'",
+  "count": 299,
+  "top": [
+   {
+    "w": "与",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "于",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "鱼",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "雨",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "玉",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "欲",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "余",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "语",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "宇",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "遇",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "羽",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "域",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "愈",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "预",
+    "rawLen": 3,
+    "reading": "yu"
+   },
+   {
+    "w": "浴",
+    "rawLen": 3,
+    "reading": "yu"
+   }
+  ],
+  "contains": [
+   "毓"
+  ]
+ },
+ {
+  "mode": "letters",
+  "raw": "women",
+  "count": 66,
+  "top": [
+   {
+    "w": "我们",
+    "rawLen": 5,
+    "reading": "wo'men"
+   },
+   {
+    "w": "我们俩",
+    "rawLen": 5,
+    "reading": "wo'men"
+   },
+   {
+    "w": "我",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "喔",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "窝",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "握",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "卧",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "沃",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "硪",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "涡",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "倭",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "渥",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "蜗",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "斡",
+    "rawLen": 2,
+    "reading": "wo"
+   },
+   {
+    "w": "肟",
+    "rawLen": 2,
+    "reading": "wo"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "letters",
+  "raw": "shijie",
+  "count": 215,
+  "top": [
+   {
+    "w": "世界",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "师姐",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "时节",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "十届",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "视界",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界杯",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界上最",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界各地",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界里",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界各国",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界级",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界经济",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界第一",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界观",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界冠军",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "6",
+  "count": 24,
+  "top": [
+   {
+    "w": "你",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "嗯",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "没",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "那",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "呢",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "吗",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "能",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "哦",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "么",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "没有",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "年",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "买",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "噢",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "嘛",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "们",
+    "rawLen": 1,
+    "reading": "m"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "64",
+  "count": 174,
+  "top": [
+   {
+    "w": "你",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "嗯",
+    "rawLen": 2,
+    "reading": "ng"
+   },
+   {
+    "w": "米",
+    "rawLen": 2,
+    "reading": "mi"
+   },
+   {
+    "w": "那个",
+    "rawLen": 2,
+    "reading": "n'g"
+   },
+   {
+    "w": "美国",
+    "rawLen": 2,
+    "reading": "m'g"
+   },
+   {
+    "w": "迷",
+    "rawLen": 2,
+    "reading": "mi"
+   },
+   {
+    "w": "年",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "能够",
+    "rawLen": 2,
+    "reading": "n'g"
+   },
+   {
+    "w": "你们",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "拟",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "尼",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "呢",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "密",
+    "rawLen": 2,
+    "reading": "mi"
+   },
+   {
+    "w": "哪个",
+    "rawLen": 2,
+    "reading": "n'g"
+   },
+   {
+    "w": "你好",
+    "rawLen": 2,
+    "reading": "n'h"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "644",
+  "count": 193,
+  "top": [
+   {
+    "w": "你好",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "你会",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "你还",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "玫瑰花",
+    "rawLen": 3,
+    "reading": "m'g'h"
+   },
+   {
+    "w": "你个",
+    "rawLen": 3,
+    "reading": "ni'g"
+   },
+   {
+    "w": "迷惑",
+    "rawLen": 3,
+    "reading": "mi'h"
+   },
+   {
+    "w": "迷宫",
+    "rawLen": 3,
+    "reading": "mi'g"
+   },
+   {
+    "w": "你和",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "迷糊",
+    "rawLen": 3,
+    "reading": "mi'h"
+   },
+   {
+    "w": "你还会",
+    "rawLen": 3,
+    "reading": "n'h'h"
+   },
+   {
+    "w": "你很",
+    "rawLen": 3,
+    "reading": "ni'h"
+   },
+   {
+    "w": "哪个好",
+    "rawLen": 3,
+    "reading": "n'g'h"
+   },
+   {
+    "w": "煤化工",
+    "rawLen": 3,
+    "reading": "m'h'g"
+   },
+   {
+    "w": "你敢",
+    "rawLen": 3,
+    "reading": "ni'g"
+   },
+   {
+    "w": "尼姑",
+    "rawLen": 3,
+    "reading": "ni'g"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "64426",
+  "count": 185,
+  "top": [
+   {
+    "w": "你好",
+    "rawLen": 5,
+    "reading": "ni'hao"
+   },
+   {
+    "w": "你敢",
+    "rawLen": 5,
+    "reading": "ni'gan"
+   },
+   {
+    "w": "米高",
+    "rawLen": 5,
+    "reading": "mi'gao"
+   },
+   {
+    "w": "你好啊",
+    "rawLen": 5,
+    "reading": "ni'hao"
+   },
+   {
+    "w": "你好吗",
+    "rawLen": 5,
+    "reading": "ni'hao"
+   },
+   {
+    "w": "玫瑰花",
+    "rawLen": 3,
+    "reading": "m'g'h"
+   },
+   {
+    "w": "你还会",
+    "rawLen": 3,
+    "reading": "n'h'h"
+   },
+   {
+    "w": "哪个好",
+    "rawLen": 3,
+    "reading": "n'g'h"
+   },
+   {
+    "w": "煤化工",
+    "rawLen": 3,
+    "reading": "m'h'g"
+   },
+   {
+    "w": "你",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "嗯",
+    "rawLen": 2,
+    "reading": "ng"
+   },
+   {
+    "w": "米",
+    "rawLen": 2,
+    "reading": "mi"
+   },
+   {
+    "w": "那个",
+    "rawLen": 2,
+    "reading": "n'g"
+   },
+   {
+    "w": "美国",
+    "rawLen": 2,
+    "reading": "m'g"
+   },
+   {
+    "w": "迷",
+    "rawLen": 2,
+    "reading": "mi"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "6442662",
+  "count": 184,
+  "top": [
+   {
+    "w": "你好吗",
+    "rawLen": 7,
+    "reading": "ni'hao'ma"
+   },
+   {
+    "w": "你好",
+    "rawLen": 5,
+    "reading": "ni'hao"
+   },
+   {
+    "w": "你敢",
+    "rawLen": 5,
+    "reading": "ni'gan"
+   },
+   {
+    "w": "米高",
+    "rawLen": 5,
+    "reading": "mi'gao"
+   },
+   {
+    "w": "玫瑰花",
+    "rawLen": 3,
+    "reading": "m'g'h"
+   },
+   {
+    "w": "你还会",
+    "rawLen": 3,
+    "reading": "n'h'h"
+   },
+   {
+    "w": "哪个好",
+    "rawLen": 3,
+    "reading": "n'g'h"
+   },
+   {
+    "w": "煤化工",
+    "rawLen": 3,
+    "reading": "m'h'g"
+   },
+   {
+    "w": "你",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "嗯",
+    "rawLen": 2,
+    "reading": "ng"
+   },
+   {
+    "w": "米",
+    "rawLen": 2,
+    "reading": "mi"
+   },
+   {
+    "w": "那个",
+    "rawLen": 2,
+    "reading": "n'g"
+   },
+   {
+    "w": "美国",
+    "rawLen": 2,
+    "reading": "m'g"
+   },
+   {
+    "w": "迷",
+    "rawLen": 2,
+    "reading": "mi"
+   },
+   {
+    "w": "能够",
+    "rawLen": 2,
+    "reading": "n'g"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "9694482664",
+  "count": 110,
+  "top": [
+   {
+    "w": "我喜欢你",
+    "rawLen": 10,
+    "reading": "wo'xi'huan'ni"
+   },
+   {
+    "w": "我只",
+    "rawLen": 5,
+    "reading": "wo'zhi"
+   },
+   {
+    "w": "我一",
+    "rawLen": 4,
+    "reading": "wo'yi"
+   },
+   {
+    "w": "我已",
+    "rawLen": 4,
+    "reading": "wo'yi"
+   },
+   {
+    "w": "有没有",
+    "rawLen": 3,
+    "reading": "y'm'y"
+   },
+   {
+    "w": "怎么样",
+    "rawLen": 3,
+    "reading": "z'm'y"
+   },
+   {
+    "w": "万美元",
+    "rawLen": 3,
+    "reading": "w'm'y"
+   },
+   {
+    "w": "西门子",
+    "rawLen": 3,
+    "reading": "x'm'z"
+   },
+   {
+    "w": "怎么做",
+    "rawLen": 3,
+    "reading": "z'm'z"
+   },
+   {
+    "w": "这么做",
+    "rawLen": 3,
+    "reading": "z'm'z"
+   },
+   {
+    "w": "项目组",
+    "rawLen": 3,
+    "reading": "x'm'z"
+   },
+   {
+    "w": "只能用",
+    "rawLen": 3,
+    "reading": "z'n'y"
+   },
+   {
+    "w": "怎么用",
+    "rawLen": 3,
+    "reading": "z'm'y"
+   },
+   {
+    "w": "圆明园",
+    "rawLen": 3,
+    "reading": "y'm'y"
+   },
+   {
+    "w": "畜牧业",
+    "rawLen": 3,
+    "reading": "x'm'y"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "5468426842674436426",
+  "count": 627,
+  "top": [
+   {
+    "w": "今天天气很好",
+    "rawLen": 19,
+    "reading": "jin'tian'tian'qi'hen'hao"
+   },
+   {
+    "w": "今天",
+    "rawLen": 7,
+    "reading": "jin'tian"
+   },
+   {
+    "w": "金条",
+    "rawLen": 7,
+    "reading": "jin'tiao"
+   },
+   {
+    "w": "妓女",
+    "rawLen": 4,
+    "reading": "ji'nv"
+   },
+   {
+    "w": "激怒",
+    "rawLen": 4,
+    "reading": "ji'nu"
+   },
+   {
+    "w": "积木",
+    "rawLen": 4,
+    "reading": "ji'mu"
+   },
+   {
+    "w": "吉姆",
+    "rawLen": 4,
+    "reading": "ji'mu"
+   },
+   {
+    "w": "继母",
+    "rawLen": 4,
+    "reading": "ji'mu"
+   },
+   {
+    "w": "进",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "金",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "近",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "林",
+    "rawLen": 3,
+    "reading": "lin"
+   },
+   {
+    "w": "仅",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "尽",
+    "rawLen": 3,
+    "reading": "jin"
+   },
+   {
+    "w": "紧",
+    "rawLen": 3,
+    "reading": "jin"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "94664486736",
+  "count": 873,
+  "top": [
+   {
+    "w": "中国人",
+    "rawLen": 11,
+    "reading": "zhong'guo'ren"
+   },
+   {
+    "w": "中国人民",
+    "rawLen": 11,
+    "reading": "zhong'guo'ren"
+   },
+   {
+    "w": "中国人寿",
+    "rawLen": 11,
+    "reading": "zhong'guo'ren"
+   },
+   {
+    "w": "中国人口",
+    "rawLen": 11,
+    "reading": "zhong'guo'ren"
+   },
+   {
+    "w": "中国",
+    "rawLen": 8,
+    "reading": "zhong'guo"
+   },
+   {
+    "w": "中古",
+    "rawLen": 7,
+    "reading": "zhong'gu"
+   },
+   {
+    "w": "中",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "种",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "重",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "钟",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "熊",
+    "rawLen": 5,
+    "reading": "xiong"
+   },
+   {
+    "w": "仲",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "众",
+    "rawLen": 5,
+    "reading": "zhong"
+   },
+   {
+    "w": "兄",
+    "rawLen": 5,
+    "reading": "xiong"
+   },
+   {
+    "w": "忠",
+    "rawLen": 5,
+    "reading": "zhong"
+   }
+  ],
+  "contains": [
+   "鑫"
+  ]
+ },
+ {
+  "mode": "t9",
+  "raw": "9426",
+  "count": 1000,
+  "top": [
+   {
+    "w": "小",
+    "rawLen": 4,
+    "reading": "xiao"
+   },
+   {
+    "w": "先",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "找",
+    "rawLen": 4,
+    "reading": "zhao"
+   },
+   {
+    "w": "线",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "笑",
+    "rawLen": 4,
+    "reading": "xiao"
+   },
+   {
+    "w": "站",
+    "rawLen": 4,
+    "reading": "zhan"
+   },
+   {
+    "w": "占",
+    "rawLen": 4,
+    "reading": "zhan"
+   },
+   {
+    "w": "照",
+    "rawLen": 4,
+    "reading": "zhao"
+   },
+   {
+    "w": "现在",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "县",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "现",
+    "rawLen": 4,
+    "reading": "xian"
+   },
+   {
+    "w": "赵",
+    "rawLen": 4,
+    "reading": "zhao"
+   },
+   {
+    "w": "招",
+    "rawLen": 4,
+    "reading": "zhao"
+   },
+   {
+    "w": "西安",
+    "rawLen": 4,
+    "reading": "xi'an"
+   },
+   {
+    "w": "咁",
+    "rawLen": 4,
+    "reading": "xian"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "326426",
+  "count": 451,
+  "top": [
+   {
+    "w": "方案",
+    "rawLen": 6,
+    "reading": "fang'an"
+   },
+   {
+    "w": "档案",
+    "rawLen": 6,
+    "reading": "dang'an"
+   },
+   {
+    "w": "蛋糕",
+    "rawLen": 6,
+    "reading": "dan'gao"
+   },
+   {
+    "w": "反感",
+    "rawLen": 6,
+    "reading": "fan'gan"
+   },
+   {
+    "w": "单号",
+    "rawLen": 6,
+    "reading": "dan'hao"
+   },
+   {
+    "w": "盗号",
+    "rawLen": 6,
+    "reading": "dao'hao"
+   },
+   {
+    "w": "祷告",
+    "rawLen": 6,
+    "reading": "dao'gao"
+   },
+   {
+    "w": "大鸟",
+    "rawLen": 6,
+    "reading": "da'niao"
+   },
+   {
+    "w": "单干",
+    "rawLen": 6,
+    "reading": "dan'gan"
+   },
+   {
+    "w": "倒好",
+    "rawLen": 6,
+    "reading": "dao'hao"
+   },
+   {
+    "w": "梵高",
+    "rawLen": 6,
+    "reading": "fan'gao"
+   },
+   {
+    "w": "胆敢",
+    "rawLen": 6,
+    "reading": "dan'gan"
+   },
+   {
+    "w": "导航",
+    "rawLen": 6,
+    "reading": "dao'han"
+   },
+   {
+    "w": "大面积",
+    "rawLen": 6,
+    "reading": "da'mian"
+   },
+   {
+    "w": "大娘",
+    "rawLen": 6,
+    "reading": "da'nian"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "68",
+  "count": 141,
+  "top": [
+   {
+    "w": "偶",
+    "rawLen": 2,
+    "reading": "ou"
+   },
+   {
+    "w": "女",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "木",
+    "rawLen": 2,
+    "reading": "mu"
+   },
+   {
+    "w": "明天",
+    "rawLen": 2,
+    "reading": "m't"
+   },
+   {
+    "w": "欧",
+    "rawLen": 2,
+    "reading": "ou"
+   },
+   {
+    "w": "怒",
+    "rawLen": 2,
+    "reading": "nu"
+   },
+   {
+    "w": "母",
+    "rawLen": 2,
+    "reading": "mu"
+   },
+   {
+    "w": "每天",
+    "rawLen": 2,
+    "reading": "m't"
+   },
+   {
+    "w": "目",
+    "rawLen": 2,
+    "reading": "mu"
+   },
+   {
+    "w": "媒体",
+    "rawLen": 2,
+    "reading": "m't"
+   },
+   {
+    "w": "目前",
+    "rawLen": 2,
+    "reading": "mu"
+   },
+   {
+    "w": "亩",
+    "rawLen": 2,
+    "reading": "mu"
+   },
+   {
+    "w": "女人",
+    "rawLen": 2,
+    "reading": "nv"
+   },
+   {
+    "w": "奴",
+    "rawLen": 2,
+    "reading": "nu"
+   },
+   {
+    "w": "穆",
+    "rawLen": 2,
+    "reading": "mu"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "5873",
+  "count": 389,
+  "top": [
+   {
+    "w": "绿色",
+    "rawLen": 4,
+    "reading": "lv'se"
+   },
+   {
+    "w": "苦涩",
+    "rawLen": 4,
+    "reading": "ku'se"
+   },
+   {
+    "w": "酷热",
+    "rawLen": 4,
+    "reading": "ku're"
+   },
+   {
+    "w": "巨人",
+    "rawLen": 4,
+    "reading": "ju're"
+   },
+   {
+    "w": "脚踏实地",
+    "rawLen": 4,
+    "reading": "j't's'd"
+   },
+   {
+    "w": "路人",
+    "rawLen": 4,
+    "reading": "lu're"
+   },
+   {
+    "w": "绿色食品",
+    "rawLen": 4,
+    "reading": "lv'se"
+   },
+   {
+    "w": "绿色版",
+    "rawLen": 4,
+    "reading": "lv'se"
+   },
+   {
+    "w": "绿色通道",
+    "rawLen": 4,
+    "reading": "lv'se"
+   },
+   {
+    "w": "绿色环保",
+    "rawLen": 4,
+    "reading": "lv'se"
+   },
+   {
+    "w": "卢森堡",
+    "rawLen": 4,
+    "reading": "lu'se"
+   },
+   {
+    "w": "聊天室",
+    "rawLen": 3,
+    "reading": "l't's"
+   },
+   {
+    "w": "立体声",
+    "rawLen": 3,
+    "reading": "l't's"
+   },
+   {
+    "w": "老太婆",
+    "rawLen": 3,
+    "reading": "l't'p"
+   },
+   {
+    "w": "路透社",
+    "rawLen": 3,
+    "reading": "l't's"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "744",
+  "count": 530,
+  "top": [
+   {
+    "w": "是",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "时",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "事",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "使",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "市",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "式",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "试",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "石",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "十",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "室",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "师",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "诗",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "时候",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "食",
+    "rawLen": 3,
+    "reading": "shi"
+   },
+   {
+    "w": "史",
+    "rawLen": 3,
+    "reading": "shi"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "96744",
+  "count": 114,
+  "top": [
+   {
+    "w": "我是",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "我市",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "卧室",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "卧式",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "我是个",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "我是谁",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "我是你",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "卧室里",
+    "rawLen": 5,
+    "reading": "wo'shi"
+   },
+   {
+    "w": "羽毛球",
+    "rawLen": 3,
+    "reading": "y'm'q"
+   },
+   {
+    "w": "云南省",
+    "rawLen": 3,
+    "reading": "y'n's"
+   },
+   {
+    "w": "詹姆斯",
+    "rawLen": 3,
+    "reading": "z'm's"
+   },
+   {
+    "w": "一年前",
+    "rawLen": 3,
+    "reading": "y'n'q"
+   },
+   {
+    "w": "威尼斯",
+    "rawLen": 3,
+    "reading": "w'n's"
+   },
+   {
+    "w": "小女生",
+    "rawLen": 3,
+    "reading": "x'n's"
+   },
+   {
+    "w": "厦门市",
+    "rawLen": 3,
+    "reading": "x'm's"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "94264726",
+  "count": 1000,
+  "top": [
+   {
+    "w": "张三",
+    "rawLen": 8,
+    "reading": "zhang'san"
+   },
+   {
+    "w": "想让",
+    "rawLen": 8,
+    "reading": "xiang'ran"
+   },
+   {
+    "w": "长胖",
+    "rawLen": 8,
+    "reading": "zhang'pan"
+   },
+   {
+    "w": "张三丰",
+    "rawLen": 8,
+    "reading": "zhang'san"
+   },
+   {
+    "w": "想",
+    "rawLen": 5,
+    "reading": "xiang"
+   },
+   {
+    "w": "向",
+    "rawLen": 5,
+    "reading": "xiang"
+   },
+   {
+    "w": "像",
+    "rawLen": 5,
+    "reading": "xiang"
+   },
+   {
+    "w": "张",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "象",
+    "rawLen": 5,
+    "reading": "xiang"
+   },
+   {
+    "w": "相",
+    "rawLen": 5,
+    "reading": "xiang"
+   },
+   {
+    "w": "涨",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "长",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "香",
+    "rawLen": 5,
+    "reading": "xiang"
+   },
+   {
+    "w": "章",
+    "rawLen": 5,
+    "reading": "zhang"
+   },
+   {
+    "w": "项",
+    "rawLen": 5,
+    "reading": "xiang"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "9436",
+  "count": 928,
+  "top": [
+   {
+    "w": "真",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "镇",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "这么",
+    "rawLen": 4,
+    "reading": "zhe'm"
+   },
+   {
+    "w": "针",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "阵",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "震",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "振",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "珍",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "真的",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "枕",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "政府",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "帧",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "正在",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "朕",
+    "rawLen": 4,
+    "reading": "zhen"
+   },
+   {
+    "w": "真是",
+    "rawLen": 4,
+    "reading": "zhen"
+   }
+  ],
+  "contains": [
+   "甄"
+  ]
+ },
+ {
+  "mode": "t9",
+  "raw": "64",
+  "count": 174,
+  "top": [
+   {
+    "w": "你",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "嗯",
+    "rawLen": 2,
+    "reading": "ng"
+   },
+   {
+    "w": "米",
+    "rawLen": 2,
+    "reading": "mi"
+   },
+   {
+    "w": "那个",
+    "rawLen": 2,
+    "reading": "n'g"
+   },
+   {
+    "w": "美国",
+    "rawLen": 2,
+    "reading": "m'g"
+   },
+   {
+    "w": "迷",
+    "rawLen": 2,
+    "reading": "mi"
+   },
+   {
+    "w": "年",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "能够",
+    "rawLen": 2,
+    "reading": "n'g"
+   },
+   {
+    "w": "你们",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "拟",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "尼",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "呢",
+    "rawLen": 2,
+    "reading": "ni"
+   },
+   {
+    "w": "密",
+    "rawLen": 2,
+    "reading": "mi"
+   },
+   {
+    "w": "哪个",
+    "rawLen": 2,
+    "reading": "n'g"
+   },
+   {
+    "w": "你好",
+    "rawLen": 2,
+    "reading": "n'h"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "9946",
+  "count": 63,
+  "top": [
+   {
+    "w": "我新",
+    "rawLen": 4,
+    "reading": "w'xin"
+   },
+   {
+    "w": "主要功能",
+    "rawLen": 4,
+    "reading": "z'y'g'n"
+   },
+   {
+    "w": "游戏画面",
+    "rawLen": 4,
+    "reading": "y'x'h'm"
+   },
+   {
+    "w": "委员会",
+    "rawLen": 3,
+    "reading": "w'y'h"
+   },
+   {
+    "w": "信息化",
+    "rawLen": 3,
+    "reading": "x'x'h"
+   },
+   {
+    "w": "组委会",
+    "rawLen": 3,
+    "reading": "z'w'h"
+   },
+   {
+    "w": "专业化",
+    "rawLen": 3,
+    "reading": "z'y'h"
+   },
+   {
+    "w": "音乐会",
+    "rawLen": 3,
+    "reading": "y'y'h"
+   },
+   {
+    "w": "吸血鬼",
+    "rawLen": 3,
+    "reading": "x'x'g"
+   },
+   {
+    "w": "这些话",
+    "rawLen": 3,
+    "reading": "z'x'h"
+   },
+   {
+    "w": "夜总会",
+    "rawLen": 3,
+    "reading": "y'z'h"
+   },
+   {
+    "w": "亚运会",
+    "rawLen": 3,
+    "reading": "y'y'h"
+   },
+   {
+    "w": "我有个",
+    "rawLen": 3,
+    "reading": "w'y'g"
+   },
+   {
+    "w": "新中国",
+    "rawLen": 3,
+    "reading": "x'z'g"
+   },
+   {
+    "w": "想找个",
+    "rawLen": 3,
+    "reading": "x'z'g"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "994",
+  "count": 60,
+  "top": [
+   {
+    "w": "委员会",
+    "rawLen": 3,
+    "reading": "w'y'h"
+   },
+   {
+    "w": "信息化",
+    "rawLen": 3,
+    "reading": "x'x'h"
+   },
+   {
+    "w": "组委会",
+    "rawLen": 3,
+    "reading": "z'w'h"
+   },
+   {
+    "w": "专业化",
+    "rawLen": 3,
+    "reading": "z'y'h"
+   },
+   {
+    "w": "音乐会",
+    "rawLen": 3,
+    "reading": "y'y'h"
+   },
+   {
+    "w": "吸血鬼",
+    "rawLen": 3,
+    "reading": "x'x'g"
+   },
+   {
+    "w": "这些话",
+    "rawLen": 3,
+    "reading": "z'x'h"
+   },
+   {
+    "w": "夜总会",
+    "rawLen": 3,
+    "reading": "y'z'h"
+   },
+   {
+    "w": "亚运会",
+    "rawLen": 3,
+    "reading": "y'y'h"
+   },
+   {
+    "w": "我有个",
+    "rawLen": 3,
+    "reading": "w'y'g"
+   },
+   {
+    "w": "新中国",
+    "rawLen": 3,
+    "reading": "x'z'g"
+   },
+   {
+    "w": "想找个",
+    "rawLen": 3,
+    "reading": "x'z'g"
+   },
+   {
+    "w": "有限公司",
+    "rawLen": 3,
+    "reading": "y'x'g"
+   },
+   {
+    "w": "微循环",
+    "rawLen": 3,
+    "reading": "w'x'h"
+   },
+   {
+    "w": "转载稿",
+    "rawLen": 3,
+    "reading": "z'z'g"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "94",
+  "count": 632,
+  "top": [
+   {
+    "w": "一",
+    "rawLen": 2,
+    "reading": "yi"
+   },
+   {
+    "w": "以",
+    "rawLen": 2,
+    "reading": "yi"
+   },
+   {
+    "w": "已",
+    "rawLen": 2,
+    "reading": "yi"
+   },
+   {
+    "w": "一个",
+    "rawLen": 2,
+    "reading": "y'g"
+   },
+   {
+    "w": "这个",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "系",
+    "rawLen": 2,
+    "reading": "xi"
+   },
+   {
+    "w": "子",
+    "rawLen": 2,
+    "reading": "zi"
+   },
+   {
+    "w": "字",
+    "rawLen": 2,
+    "reading": "zi"
+   },
+   {
+    "w": "自",
+    "rawLen": 2,
+    "reading": "zi"
+   },
+   {
+    "w": "中国",
+    "rawLen": 2,
+    "reading": "z'g"
+   },
+   {
+    "w": "西",
+    "rawLen": 2,
+    "reading": "xi"
+   },
+   {
+    "w": "应该",
+    "rawLen": 2,
+    "reading": "y'g"
+   },
+   {
+    "w": "洗",
+    "rawLen": 2,
+    "reading": "xi"
+   },
+   {
+    "w": "亿",
+    "rawLen": 2,
+    "reading": "yi"
+   },
+   {
+    "w": "现在",
+    "rawLen": 2,
+    "reading": "xi"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "947",
+  "count": 658,
+  "top": [
+   {
+    "w": "一起",
+    "rawLen": 3,
+    "reading": "yi'q"
+   },
+   {
+    "w": "以前",
+    "rawLen": 3,
+    "reading": "yi'q"
+   },
+   {
+    "w": "意思",
+    "rawLen": 3,
+    "reading": "yi's"
+   },
+   {
+    "w": "中国人",
+    "rawLen": 3,
+    "reading": "z'g'r"
+   },
+   {
+    "w": "一切",
+    "rawLen": 3,
+    "reading": "yi'q"
+   },
+   {
+    "w": "以上",
+    "rawLen": 3,
+    "reading": "yi's"
+   },
+   {
+    "w": "自然",
+    "rawLen": 3,
+    "reading": "zi'r"
+   },
+   {
+    "w": "医生",
+    "rawLen": 3,
+    "reading": "yi's"
+   },
+   {
+    "w": "依然",
+    "rawLen": 3,
+    "reading": "yi'r"
+   },
+   {
+    "w": "艺术",
+    "rawLen": 3,
+    "reading": "yi's"
+   },
+   {
+    "w": "意识",
+    "rawLen": 3,
+    "reading": "yi's"
+   },
+   {
+    "w": "这个人",
+    "rawLen": 3,
+    "reading": "z'g'r"
+   },
+   {
+    "w": "自身",
+    "rawLen": 3,
+    "reading": "zi's"
+   },
+   {
+    "w": "一片",
+    "rawLen": 3,
+    "reading": "yi'p"
+   },
+   {
+    "w": "一声",
+    "rawLen": 3,
+    "reading": "yi's"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "25",
+  "count": 46,
+  "top": [
+   {
+    "w": "比较",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "出来",
+    "rawLen": 2,
+    "reading": "c'l"
+   },
+   {
+    "w": "北京",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "处理",
+    "rawLen": 2,
+    "reading": "c'l"
+   },
+   {
+    "w": "包括",
+    "rawLen": 2,
+    "reading": "b'k"
+   },
+   {
+    "w": "除了",
+    "rawLen": 2,
+    "reading": "c'l"
+   },
+   {
+    "w": "参加",
+    "rawLen": 2,
+    "reading": "c'j"
+   },
+   {
+    "w": "本来",
+    "rawLen": 2,
+    "reading": "b'l"
+   },
+   {
+    "w": "博客",
+    "rawLen": 2,
+    "reading": "b'k"
+   },
+   {
+    "w": "曾经",
+    "rawLen": 2,
+    "reading": "c'j"
+   },
+   {
+    "w": "不仅",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "材料",
+    "rawLen": 2,
+    "reading": "c'l"
+   },
+   {
+    "w": "毕竟",
+    "rawLen": 2,
+    "reading": "b'j"
+   },
+   {
+    "w": "促进",
+    "rawLen": 2,
+    "reading": "c'j"
+   },
+   {
+    "w": "成了",
+    "rawLen": 2,
+    "reading": "c'l"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "99",
+  "count": 40,
+  "top": [
+   {
+    "w": "现在",
+    "rawLen": 2,
+    "reading": "x'z"
+   },
+   {
+    "w": "这样",
+    "rawLen": 2,
+    "reading": "z'y"
+   },
+   {
+    "w": "因为",
+    "rawLen": 2,
+    "reading": "y'w"
+   },
+   {
+    "w": "一下",
+    "rawLen": 2,
+    "reading": "y'x"
+   },
+   {
+    "w": "需要",
+    "rawLen": 2,
+    "reading": "x'y"
+   },
+   {
+    "w": "一些",
+    "rawLen": 2,
+    "reading": "y'x"
+   },
+   {
+    "w": "一样",
+    "rawLen": 2,
+    "reading": "y'y"
+   },
+   {
+    "w": "这些",
+    "rawLen": 2,
+    "reading": "z'x"
+   },
+   {
+    "w": "一直",
+    "rawLen": 2,
+    "reading": "y'z"
+   },
+   {
+    "w": "这种",
+    "rawLen": 2,
+    "reading": "z'z"
+   },
+   {
+    "w": "希望",
+    "rawLen": 2,
+    "reading": "x'w"
+   },
+   {
+    "w": "只有",
+    "rawLen": 2,
+    "reading": "z'y"
+   },
+   {
+    "w": "信息",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "谢谢",
+    "rawLen": 2,
+    "reading": "x'x"
+   },
+   {
+    "w": "主要",
+    "rawLen": 2,
+    "reading": "z'y"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "6426",
+  "count": 299,
+  "top": [
+   {
+    "w": "年",
+    "rawLen": 4,
+    "reading": "nian"
+   },
+   {
+    "w": "面",
+    "rawLen": 4,
+    "reading": "mian"
+   },
+   {
+    "w": "鸟",
+    "rawLen": 4,
+    "reading": "niao"
+   },
+   {
+    "w": "秒",
+    "rawLen": 4,
+    "reading": "miao"
+   },
+   {
+    "w": "念",
+    "rawLen": 4,
+    "reading": "nian"
+   },
+   {
+    "w": "免",
+    "rawLen": 4,
+    "reading": "mian"
+   },
+   {
+    "w": "尿",
+    "rawLen": 4,
+    "reading": "niao"
+   },
+   {
+    "w": "苗",
+    "rawLen": 4,
+    "reading": "miao"
+   },
+   {
+    "w": "妙",
+    "rawLen": 4,
+    "reading": "miao"
+   },
+   {
+    "w": "棉",
+    "rawLen": 4,
+    "reading": "mian"
+   },
+   {
+    "w": "庙",
+    "rawLen": 4,
+    "reading": "miao"
+   },
+   {
+    "w": "粘",
+    "rawLen": 4,
+    "reading": "nian"
+   },
+   {
+    "w": "喵",
+    "rawLen": 4,
+    "reading": "miao"
+   },
+   {
+    "w": "眠",
+    "rawLen": 4,
+    "reading": "mian"
+   },
+   {
+    "w": "瞄",
+    "rawLen": 4,
+    "reading": "miao"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "587",
+  "count": 392,
+  "top": [
+   {
+    "w": "居然",
+    "rawLen": 3,
+    "reading": "ju'r"
+   },
+   {
+    "w": "据说",
+    "rawLen": 3,
+    "reading": "ju's"
+   },
+   {
+    "w": "路上",
+    "rawLen": 3,
+    "reading": "lu's"
+   },
+   {
+    "w": "绿色",
+    "rawLen": 3,
+    "reading": "lv's"
+   },
+   {
+    "w": "律师",
+    "rawLen": 3,
+    "reading": "lv's"
+   },
+   {
+    "w": "聊天室",
+    "rawLen": 3,
+    "reading": "l't's"
+   },
+   {
+    "w": "剧情",
+    "rawLen": 3,
+    "reading": "ju'q"
+   },
+   {
+    "w": "录取",
+    "rawLen": 3,
+    "reading": "lu'q"
+   },
+   {
+    "w": "录入",
+    "rawLen": 3,
+    "reading": "lu'r"
+   },
+   {
+    "w": "哭泣",
+    "rawLen": 3,
+    "reading": "ku'q"
+   },
+   {
+    "w": "立体声",
+    "rawLen": 3,
+    "reading": "l't's"
+   },
+   {
+    "w": "巨人",
+    "rawLen": 3,
+    "reading": "ju'r"
+   },
+   {
+    "w": "局势",
+    "rawLen": 3,
+    "reading": "ju's"
+   },
+   {
+    "w": "老太婆",
+    "rawLen": 3,
+    "reading": "l't'p"
+   },
+   {
+    "w": "举起",
+    "rawLen": 3,
+    "reading": "ju'q"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "33",
+  "count": 128,
+  "top": [
+   {
+    "w": "的",
+    "rawLen": 2,
+    "reading": "de"
+   },
+   {
+    "w": "得",
+    "rawLen": 2,
+    "reading": "de"
+   },
+   {
+    "w": "地",
+    "rawLen": 2,
+    "reading": "de"
+   },
+   {
+    "w": "德",
+    "rawLen": 2,
+    "reading": "de"
+   },
+   {
+    "w": "等",
+    "rawLen": 2,
+    "reading": "de"
+   },
+   {
+    "w": "地方",
+    "rawLen": 2,
+    "reading": "d'f"
+   },
+   {
+    "w": "得到",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "方法",
+    "rawLen": 2,
+    "reading": "f'f"
+   },
+   {
+    "w": "达到",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "的人",
+    "rawLen": 2,
+    "reading": "de"
+   },
+   {
+    "w": "到底",
+    "rawLen": 2,
+    "reading": "d'd"
+   },
+   {
+    "w": "对方",
+    "rawLen": 2,
+    "reading": "d'f"
+   },
+   {
+    "w": "非常",
+    "rawLen": 2,
+    "reading": "fe"
+   },
+   {
+    "w": "第二",
+    "rawLen": 2,
+    "reading": "d'e"
+   },
+   {
+    "w": "等等",
+    "rawLen": 2,
+    "reading": "d'd"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "2",
+  "count": 21,
+  "top": [
+   {
+    "w": "啊",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "不",
+    "rawLen": 1,
+    "reading": "b"
+   },
+   {
+    "w": "吧",
+    "rawLen": 1,
+    "reading": "b"
+   },
+   {
+    "w": "把",
+    "rawLen": 1,
+    "reading": "b"
+   },
+   {
+    "w": "阿",
+    "rawLen": 1,
+    "reading": "a"
+   },
+   {
+    "w": "被",
+    "rawLen": 1,
+    "reading": "b"
+   },
+   {
+    "w": "从",
+    "rawLen": 1,
+    "reading": "c"
+   },
+   {
+    "w": "并",
+    "rawLen": 1,
+    "reading": "b"
+   },
+   {
+    "w": "才",
+    "rawLen": 1,
+    "reading": "c"
+   },
+   {
+    "w": "比",
+    "rawLen": 1,
+    "reading": "b"
+   },
+   {
+    "w": "吃",
+    "rawLen": 1,
+    "reading": "c"
+   },
+   {
+    "w": "不是",
+    "rawLen": 1,
+    "reading": "b"
+   },
+   {
+    "w": "出",
+    "rawLen": 1,
+    "reading": "c"
+   },
+   {
+    "w": "别",
+    "rawLen": 1,
+    "reading": "b"
+   },
+   {
+    "w": "不过",
+    "rawLen": 1,
+    "reading": "b"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "3",
+  "count": 100,
+  "top": [
+   {
+    "w": "的",
+    "rawLen": 1,
+    "reading": "d"
+   },
+   {
+    "w": "都",
+    "rawLen": 1,
+    "reading": "d"
+   },
+   {
+    "w": "到",
+    "rawLen": 1,
+    "reading": "d"
+   },
+   {
+    "w": "对",
+    "rawLen": 1,
+    "reading": "d"
+   },
+   {
+    "w": "等",
+    "rawLen": 1,
+    "reading": "d"
+   },
+   {
+    "w": "恩",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "多",
+    "rawLen": 1,
+    "reading": "d"
+   },
+   {
+    "w": "点",
+    "rawLen": 1,
+    "reading": "d"
+   },
+   {
+    "w": "而",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "额",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "但",
+    "rawLen": 1,
+    "reading": "d"
+   },
+   {
+    "w": "俄",
+    "rawLen": 1,
+    "reading": "e"
+   },
+   {
+    "w": "打",
+    "rawLen": 1,
+    "reading": "d"
+   },
+   {
+    "w": "大",
+    "rawLen": 1,
+    "reading": "d"
+   },
+   {
+    "w": "地",
+    "rawLen": 1,
+    "reading": "d"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "6",
+  "count": 24,
+  "top": [
+   {
+    "w": "你",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "嗯",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "没",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "那",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "呢",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "吗",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "能",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "哦",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "么",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "没有",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "年",
+    "rawLen": 1,
+    "reading": "n"
+   },
+   {
+    "w": "买",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "噢",
+    "rawLen": 1,
+    "reading": "o"
+   },
+   {
+    "w": "嘛",
+    "rawLen": 1,
+    "reading": "m"
+   },
+   {
+    "w": "们",
+    "rawLen": 1,
+    "reading": "m"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "264",
+  "count": 233,
+  "top": [
+   {
+    "w": "昂",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "阿弥",
+    "rawLen": 3,
+    "reading": "a'mi"
+   },
+   {
+    "w": "阿米",
+    "rawLen": 3,
+    "reading": "a'mi"
+   },
+   {
+    "w": "阿尼",
+    "rawLen": 3,
+    "reading": "a'ni"
+   },
+   {
+    "w": "安徽",
+    "rawLen": 3,
+    "reading": "an'h"
+   },
+   {
+    "w": "才能够",
+    "rawLen": 3,
+    "reading": "c'n'g"
+   },
+   {
+    "w": "盎",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "昂贵",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "安徽省",
+    "rawLen": 3,
+    "reading": "an'h"
+   },
+   {
+    "w": "拨号",
+    "rawLen": 3,
+    "reading": "bo'h"
+   },
+   {
+    "w": "按规定",
+    "rawLen": 3,
+    "reading": "an'g"
+   },
+   {
+    "w": "爆米花",
+    "rawLen": 3,
+    "reading": "b'm'h"
+   },
+   {
+    "w": "肮脏",
+    "rawLen": 3,
+    "reading": "ang"
+   },
+   {
+    "w": "百脑汇",
+    "rawLen": 3,
+    "reading": "b'n'h"
+   },
+   {
+    "w": "暗黑",
+    "rawLen": 3,
+    "reading": "an'h"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "79557",
+  "count": 66,
+  "top": [
+   {
+    "w": "是先进技术",
+    "rawLen": 5,
+    "reading": "s'x'j'j's"
+   },
+   {
+    "w": "十字路口",
+    "rawLen": 4,
+    "reading": "s'z'l'k"
+   },
+   {
+    "w": "身心健康",
+    "rawLen": 4,
+    "reading": "s'x'j'k"
+   },
+   {
+    "w": "区域经济",
+    "rawLen": 4,
+    "reading": "q'y'j'j"
+   },
+   {
+    "w": "清晰可见",
+    "rawLen": 4,
+    "reading": "q'x'k'j"
+   },
+   {
+    "w": "生殖健康",
+    "rawLen": 4,
+    "reading": "s'z'j'k"
+   },
+   {
+    "w": "企业家",
+    "rawLen": 3,
+    "reading": "q'y'j"
+   },
+   {
+    "w": "是一件",
+    "rawLen": 3,
+    "reading": "s'y'j"
+   },
+   {
+    "w": "市盈率",
+    "rawLen": 3,
+    "reading": "s'y'l"
+   },
+   {
+    "w": "收益率",
+    "rawLen": 3,
+    "reading": "s'y'l"
+   },
+   {
+    "w": "摄像机",
+    "rawLen": 3,
+    "reading": "s'x'j"
+   },
+   {
+    "w": "是一款",
+    "rawLen": 3,
+    "reading": "s'y'k"
+   },
+   {
+    "w": "日子里",
+    "rawLen": 3,
+    "reading": "r'z'l"
+   },
+   {
+    "w": "甚至连",
+    "rawLen": 3,
+    "reading": "s'z'l"
+   },
+   {
+    "w": "收音机",
+    "rawLen": 3,
+    "reading": "s'y'j"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "3426626",
+  "count": 315,
+  "top": [
+   {
+    "w": "电脑",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "刁难",
+    "rawLen": 7,
+    "reading": "diao'nan"
+   },
+   {
+    "w": "电脑城",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑前",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑里",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑报",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑屏幕",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑桌",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑游戏",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑公司",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑知识",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "电脑系统",
+    "rawLen": 7,
+    "reading": "dian'nao"
+   },
+   {
+    "w": "点",
+    "rawLen": 4,
+    "reading": "dian"
+   },
+   {
+    "w": "掉",
+    "rawLen": 4,
+    "reading": "diao"
+   },
+   {
+    "w": "店",
+    "rawLen": 4,
+    "reading": "dian"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "98",
+  "count": 562,
+  "top": [
+   {
+    "w": "与",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "于",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "无",
+    "rawLen": 2,
+    "reading": "wu"
+   },
+   {
+    "w": "组",
+    "rawLen": 2,
+    "reading": "zu"
+   },
+   {
+    "w": "问题",
+    "rawLen": 2,
+    "reading": "w't"
+   },
+   {
+    "w": "五",
+    "rawLen": 2,
+    "reading": "wu"
+   },
+   {
+    "w": "唔",
+    "rawLen": 2,
+    "reading": "wu"
+   },
+   {
+    "w": "鱼",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "雨",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "吴",
+    "rawLen": 2,
+    "reading": "wu"
+   },
+   {
+    "w": "需",
+    "rawLen": 2,
+    "reading": "xu"
+   },
+   {
+    "w": "系统",
+    "rawLen": 2,
+    "reading": "x't"
+   },
+   {
+    "w": "玉",
+    "rawLen": 2,
+    "reading": "yu"
+   },
+   {
+    "w": "须",
+    "rawLen": 2,
+    "reading": "xu"
+   },
+   {
+    "w": "物",
+    "rawLen": 2,
+    "reading": "wu"
+   }
+  ],
+  "contains": [
+   "毓"
+  ]
+ },
+ {
+  "mode": "t9",
+  "raw": "96636",
+  "count": 101,
+  "top": [
+   {
+    "w": "我们",
+    "rawLen": 5,
+    "reading": "wo'men"
+   },
+   {
+    "w": "我能",
+    "rawLen": 5,
+    "reading": "wo'nen"
+   },
+   {
+    "w": "我们俩",
+    "rawLen": 5,
+    "reading": "wo'men"
+   },
+   {
+    "w": "小妹妹",
+    "rawLen": 3,
+    "reading": "x'm'm"
+   },
+   {
+    "w": "一年内",
+    "rawLen": 3,
+    "reading": "y'n'n"
+   },
+   {
+    "w": "洗面奶",
+    "rawLen": 3,
+    "reading": "x'm'n"
+   },
+   {
+    "w": "丈母娘",
+    "rawLen": 3,
+    "reading": "z'm'n"
+   },
+   {
+    "w": "准妈妈",
+    "rawLen": 3,
+    "reading": "z'm'm"
+   },
+   {
+    "w": "怎么弄",
+    "rawLen": 3,
+    "reading": "z'm'n"
+   },
+   {
+    "w": "真面目",
+    "rawLen": 3,
+    "reading": "z'm'm"
+   },
+   {
+    "w": "笑眯眯",
+    "rawLen": 3,
+    "reading": "x'm'm"
+   },
+   {
+    "w": "一幕幕",
+    "rawLen": 3,
+    "reading": "y'm'm"
+   },
+   {
+    "w": "小美女",
+    "rawLen": 3,
+    "reading": "x'm'n"
+   },
+   {
+    "w": "这么难",
+    "rawLen": 3,
+    "reading": "z'm'n"
+   },
+   {
+    "w": "这么慢",
+    "rawLen": 3,
+    "reading": "z'm'm"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "744543",
+  "count": 574,
+  "top": [
+   {
+    "w": "世界",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "师姐",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "时节",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "十届",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "视界",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界杯",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界上最",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界各地",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界里",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界各国",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界级",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界经济",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界第一",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界观",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   },
+   {
+    "w": "世界冠军",
+    "rawLen": 6,
+    "reading": "shi'jie"
+   }
+  ],
+  "contains": []
+ },
+ {
+  "mode": "t9",
+  "raw": "94'26",
+  "count": 673,
+  "top": [
+   {
+    "w": "西安",
+    "rawLen": 5,
+    "reading": "xi'an"
+   },
+   {
+    "w": "议案",
+    "rawLen": 5,
+    "reading": "yi'an"
+   },
+   {
+    "w": "一波",
+    "rawLen": 5,
+    "reading": "yi'bo"
+   },
+   {
+    "w": "淄博",
+    "rawLen": 5,
+    "reading": "zi'bo"
+   },
+   {
+    "w": "有关部门",
+    "rawLen": 5,
+    "reading": "y'g'b'm"
+   },
+   {
+    "w": "一案",
+    "rawLen": 5,
+    "reading": "yi'an"
+   },
+   {
+    "w": "主管部门",
+    "rawLen": 5,
+    "reading": "z'g'b'm"
+   },
+   {
+    "w": "一拨",
+    "rawLen": 5,
+    "reading": "yi'bo"
+   },
+   {
+    "w": "西岸",
+    "rawLen": 5,
+    "reading": "xi'an"
+   },
+   {
+    "w": "稀薄",
+    "rawLen": 5,
+    "reading": "xi'bo"
+   },
+   {
+    "w": "相关部门",
+    "rawLen": 5,
+    "reading": "x'g'b'm"
+   },
+   {
+    "w": "自傲",
+    "rawLen": 5,
+    "reading": "zi'ao"
+   },
+   {
+    "w": "自从",
+    "rawLen": 5,
+    "reading": "zi'co"
+   },
+   {
+    "w": "五花八门",
+    "rawLen": 5,
+    "reading": "w'h'b'm"
+   },
+   {
+    "w": "西安市",
+    "rawLen": 5,
+    "reading": "xi'an"
+   }
+  ],
+  "contains": []
+ }
+]

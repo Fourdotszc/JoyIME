@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>JoyIME 候选</title>
+  <link rel="stylesheet" href="overlay.css">
+</head>
+<body>
+  <!-- 窗口本身是透明、点不到的，只有这一块面板看得见；面板贴着窗口左上角（光标下方）或左下角（光标上方） -->
+  <div class="pop" id="pop">
+    <div class="dirs" id="dirs"></div>
+    <div class="main" id="main">
+      <div class="read"><span id="reading"></span><small id="keys"></small></div>
+      <div id="py"></div>
+      <ol class="cands" id="cands"></ol>
+      <div class="toast" id="toast"></div>
+    </div>
+    <div class="page" id="page"></div>
+  </div>
+  <script src="common.js"></script>
+  <script src="overlay.js"></script>
+</body>
+</html>

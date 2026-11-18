@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "设置窗口和候选悬浮窗都能调命令、收事件",
+  "windows": ["settings", "overlay"],
+  "permissions": ["core:default"]
+}

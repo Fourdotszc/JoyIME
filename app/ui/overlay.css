@@ -1,0 +1,88 @@
+/* 候选窗：贴在文字光标旁边，浅色、紧凑，和系统输入法的候选窗一个路数 */
+:root {
+  --paper: #ffffff;
+  --ink: #1c1c1c;
+  --ink2: #4a4a48;
+  --mute: #8a8a86;
+  --rule: #d6d6d2;
+  --rule2: #ececea;
+  --accent: #d9480f;
+  --accent-soft: #fbe9e1;
+  --ui: "Segoe UI Variable Text", "Segoe UI", "Microsoft YaHei UI", "PingFang SC", system-ui, sans-serif;
+  --mono: "Cascadia Mono", "SF Mono", Consolas, monospace;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; background: transparent; overflow: hidden; user-select: none; cursor: default; }
+body { display: flex; align-items: flex-start; padding: 6px; font: 13px/1.4 var(--ui); color: var(--ink); }
+/* 光标下面放不下时，窗口放在光标上方，面板贴着窗口底边 */
+body.above { align-items: flex-end; }
+
+.pop {
+  display: flex;
+  align-items: stretch;
+  max-width: 100%;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+/* 八个方向各是哪几个字母 */
+.dirs {
+  flex: none;
+  display: grid;
+  grid-template-columns: repeat(3, 46px);
+  grid-auto-rows: 30px;
+  padding: 8px;
+  background: #fafaf8;
+}
+.dirs span {
+  position: relative;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--rule2);
+  margin: -1px 0 0 -1px;
+  font: 600 13px var(--mono);
+  color: var(--ink2);
+}
+.dirs span i { position: absolute; top: 0; left: 3px; font: normal 9px var(--mono); color: var(--mute); }
+.dirs span.on { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); z-index: 1; }
+.dirs .center { font: 600 14px var(--ui); color: var(--ink); background: var(--paper); }
+.pop.paused .dirs .center { color: var(--mute); }
+
+.main { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; padding: 8px 18px 8px 14px; border-left: 1px solid var(--rule2); }
+.pop.hint .main, .pop.hint .page { display: none; }
+.read { height: 22px; font: 15px var(--mono); color: var(--ink2); white-space: nowrap; }
+.read small { margin-left: 8px; font-size: 12px; color: var(--mute); }
+.cands { display: flex; gap: 22px; margin: 4px 0 0; padding: 0; list-style: none; font-size: 25px; line-height: 1.3; white-space: nowrap; transition: opacity .1s; }
+.cands li { flex: none; }
+.cands li::before { content: attr(data-n); margin-right: 5px; font: 13px var(--mono); color: var(--mute); vertical-align: 2px; }
+.cands li:first-child { color: var(--accent); }
+.toast { font-size: 16px; white-space: nowrap; }
+.toast small { display: block; color: var(--mute); font-size: 12px; }
+
+/* 拼音栏：定下的音节（实心）+ 可选的音节；选拼音时可选音节带编号、高亮，候选变淡 */
+.pybar { display: flex; align-items: center; gap: 6px; margin-top: 3px; font: 14px var(--mono); color: var(--mute); white-space: nowrap; }
+.pybar b { padding: 1px 7px; border-radius: 4px; background: var(--accent); color: #fff; font-weight: 600; }
+.pybar ol { display: flex; gap: 12px; margin: 0 0 0 2px; padding: 0; list-style: none; }
+.pybar small { margin-left: 4px; font-size: 11px; color: var(--mute); }
+.pybar.focus ol { gap: 8px; }
+.pybar.focus li { padding: 1px 8px; border: 1px solid var(--accent); border-radius: 4px; background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.pybar li::before { content: attr(data-n); margin-right: 3px; font: normal 10px var(--mono); color: var(--mute); }
+.pop.pyfocus .cands { opacity: .4; }
+
+.page {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  border-left: 1px solid var(--rule2);
+  font: 12px var(--mono);
+  color: var(--mute);
+  text-align: center;
+  white-space: nowrap;
+}
+[hidden] { display: none !important; }

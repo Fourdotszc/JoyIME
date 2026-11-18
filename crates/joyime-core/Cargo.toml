@@ -1,0 +1,9 @@
+[package]
+name = "joyime-core"
+description = "输入状态机：把摇杆的方向和按键变成上屏文字、候选和翻页；不碰任何系统接口，方便测试"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+joyime-pinyin = { path = "../joyime-pinyin" }
+joyime-english = { path = "../joyime-english" }

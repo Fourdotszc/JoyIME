@@ -1,0 +1,16 @@
+# 端到端：拼音栏。9426 选拼音 xian → 候选只剩 xian 的字，第 1 个是 先；
+# 64426 选拼音 ni → 回到选候选 → 空格选第 1 个 你好。应打出 先你好
+wait 6000
+flicks 9426
+tap pinyin          # 上排键改成选拼音：xian xiao zhao zhan
+wait 2500           # 截图：选拼音
+tap slot0           # 定下 xian
+wait 2500           # 截图：候选只剩 xian 的字
+tap slot0           # 先
+flicks 64426
+tap pinyin
+tap slot0           # 定下 ni，接着选下一个音节
+wait 2500           # 截图：ni 已定、选 hao
+tap pinyin          # 回到选候选
+tap space           # 你好
+wait 1000

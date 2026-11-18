@@ -1,0 +1,5 @@
+[package]
+name = "joyime-english"
+description = "英文引擎：九宫格数字串 → 单词（4663 → good/home），以及按前缀补全单词"
+version.workspace = true
+edition.workspace = true

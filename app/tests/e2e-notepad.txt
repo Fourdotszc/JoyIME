@@ -1,0 +1,16 @@
+# 端到端：在记事本里打字、翻页再选词。用法见 docs/testing.md
+wait 6000           # 留时间把记事本切到前台
+flicks 64426
+tap slot0           # 你好
+flicks 9436         # zhen
+tap cycle_layer     # 第 2 页
+tap cycle_layer     # 第 3 页
+tap slot1           # 第 3 页第 2 个
+flicks 3426626      # diannao
+tap enter           # 第 1 页往前 = 最后一页
+tap cycle_layer     # 回到第 1 页
+tap slot0           # 电脑
+flicks 9694482664   # woxihuanni
+tap space           # 我喜欢你
+tap slot1           # 空闲时 = 。
+wait 800

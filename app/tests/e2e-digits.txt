@@ -1,0 +1,16 @@
+# 端到端：切到 123 层打数字。应打出 2026.19
+wait 4000
+tap cycle_layer     # 九 → 英
+tap cycle_layer     # 英 → 123
+push up 70          # 2
+wait 60
+tap slot1           # 中位字母 2 = 0
+push up 70          # 2
+wait 60
+push right 70       # 6
+wait 60
+tap slot2           # 中位字母 3 = .
+push ul 70          # 1
+wait 60
+push dr 70          # 9
+wait 400

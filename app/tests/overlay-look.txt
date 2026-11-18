@@ -1,0 +1,10 @@
+# 看悬浮窗长什么样：打出 9426（xiao）后停 4 秒，清掉，再打一次（第二次弹出也要对）
+wait 3000
+flicks 9426
+wait 4000
+tap escape
+wait 600
+flicks 9426
+wait 3000
+tap escape
+wait 500

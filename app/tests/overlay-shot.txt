@@ -1,0 +1,6 @@
+# 截图用：打一半停住，让候选窗挂在光标旁边
+wait 6000
+flicks 64426
+wait 5000
+tap escape
+wait 500

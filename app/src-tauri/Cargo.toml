@@ -1,0 +1,39 @@
+[package]
+name = "joyime-app"
+description = "JoyIME：用街机摇杆 / 手柄打字的输入法（后台程序 + 候选悬浮窗 + 设置界面）"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+name = "joyime_app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+gilrs = "0.11"
+enigo = "0.5"
+joyime-core = { path = "../../crates/joyime-core" }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = ["Win32_Foundation", "Win32_UI_WindowsAndMessaging"] }
+# 读光标位置和焦点控件（caret.rs）：MSAA / UI Automation 要用 COM 接口
+# 系统输入法 DLL 的管道服务端（ime.rs）
+tokio = { version = "1", features = ["net", "io-util", "rt", "sync"] }
+windows = { version = "0.61", features = [
+    "Win32_Foundation",
+    "Win32_Security",
+    "Win32_Security_Authorization",
+    "Win32_System_Registry",
+    "Win32_Graphics_Gdi",
+    "Win32_System_Com",
+    "Win32_System_Ole",
+    "Win32_System_Threading",
+    "Win32_System_Variant",
+    "Win32_UI_Accessibility",
+    "Win32_UI_WindowsAndMessaging",
+] }

@@ -1,0 +1,10 @@
+# 端到端：按住空格 + 上排键选拼音。
+# 96 按住空格（拼音栏亮出 1 wo 2 yo）+ 上排第 2 个 → yo → 哟；64426 按住空格依次选 ni、hao → 你好。应打出 哟你好
+wait 6000
+flicks 96
+chord space 2500 slot1   # 截图：按住空格，拼音栏亮着
+tap slot0                # 哟
+flicks 64426
+chord space slot0 slot0  # ni、hao
+tap slot0                # 你好
+wait 1000

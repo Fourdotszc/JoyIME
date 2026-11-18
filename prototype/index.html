@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>摇杆输入法</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>摇杆输入法 · 方向 + 按键</h1>
+    <span id="layer" class="layer">九</span>
+    <span id="status">未检测到手柄：先按一下摇杆上的任意按钮（浏览器要有一次按键才会识别手柄）</span>
+    <button id="btn-practice">练习模式</button>
+    <button id="btn-calib">设置手柄按键</button>
+  </header>
+
+  <main>
+    <section>
+      <div id="grid" class="grid"></div>
+      <div id="legend" class="legend"></div>
+      <p class="hint-text">点击上面的按键可以单独重设它对应的手柄按钮。</p>
+    </section>
+
+    <section class="right">
+      <div id="practice" class="practice" hidden>
+        <div class="practice-head">
+          <span>照着打：</span>
+          <span id="practice-progress"></span>
+        </div>
+        <div id="target" class="target"></div>
+        <div id="results" class="results"></div>
+      </div>
+
+      <div id="ime" class="ime" hidden>
+        <div class="ime-head">
+          <span id="comp" class="ime-comp"></span>
+          <span id="page" class="ime-page"></span>
+        </div>
+        <div id="cands" class="cands"></div>
+      </div>
+
+      <div id="output" class="output"></div>
+
+      <div class="toolbar">
+        <span id="stats" class="stats"></span>
+        <button id="btn-copy">复制</button>
+        <button id="btn-clear">清空</button>
+      </div>
+
+      <details id="debug">
+        <summary>原始输入（方向不对、按键没反应时看这里）</summary>
+        <pre id="raw">还没有手柄数据</pre>
+      </details>
+
+      <div class="help">
+        <h2>怎么打字</h2>
+        <ul>
+          <li><b>摇杆推到某个方向选一组，再按上排 4 个按键之一选组里的第几个字。</b>可以按住方向连按几个键，同一组的字一口气打完。</li>
+          <li>八个方向按手机九宫格排：↑ 是 2(abc)、↗ 是 3(def)……正中间的 5(jkl) 在摇杆中位选不到，挪到了 ↖。</li>
+          <li><b>九宫格层（九）：只推方向不按键，推一下回中位就是按一次九宫格键（你好 ni hao = 6 4 4 2 6 = → ← ← ↑ →），输入法自己猜拼音。上排 4 个键随时直接选第 1–4 个候选，不用回中位。</b>候选框里会显示这串键被读成了什么拼音。空格选第 1 个，退格删一个键。</li>
+          <li><b>翻候选：打字时「切换」下一页，「回车」上一页，按住都能连续翻</b>，第 1 页再往前翻会跳到最后一页。</li>
+          <li>「切换」在 九 → 拼 → abc → ABC → 123 符号 之间轮换；123 层的中位也有字（50.,），这时不推摇杆直接按键。</li>
+          <li><b>拼音层（拼）：照常打拼音字母，候选会出现在九宫格正中间。摇杆回中位，按上排第几个键就选第几个候选。</b>空格选第 1 个，退格删拼音，翻页和九宫格一样；查不到候选时回车把字母原样上屏。ü 打 v（lv → 绿），' 用来分隔音节（xi'an → 西安）。标点会先把拼音整段上屏，再打全角标点。可以一口气打整句（woxihuanni → 我喜欢你）。</li>
+          <li><b>找生僻字：候选会列出这个拼音的所有字，按住「切换」连续往后翻，翻过了按「回车」往回。</b>拼音层在结尾打 ' 能少翻几页（zhen' → 不再混进 zheng 的字）。</li>
+          <li><b>简拼：只打每个字的首字母也行</b>，nh → 你好，zgr → 中国人，bj → 比较/北京，wxh → 我喜欢；还能和全拼混着打（nhao → 你好，wxhn → 我喜欢你）。九宫格里一样，按首字母所在的键（nh = 6 4），候选框会显示读成了 n'h。</li>
+          <li>有输入缓冲：按键比推杆早 60ms 以内、或松杆比按键早 80ms 以内，都按你想推的方向算。</li>
+          <li>没接手柄也能用键盘试：方向 WASD / 方向键 / 小键盘，字母键 J K L ;，空格 Space，退格 Backspace，切换 Tab，回车 Enter。</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="pinyin-dict.js"></script>
+  <script src="pinyin.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
